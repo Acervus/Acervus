@@ -1,0 +1,132 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#D1D7F1;
+    overflow-x: hidden; /* Impede rolagem lateral em telas menores */
+}
+
+.Header {
+    background-color:  #1E0D5D;
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+    flex-wrap: wrap; /* Flex-wrap para telas menores */
+}
+
+.Imagem {
+    flex: 0 0 300px; /* Largura fixa da imagem no desktop */
+    margin-right: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-style {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.TextAudio {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.audio {
+    margin-bottom: 20px;
+}
+
+.Text {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left; /* Mantém o texto alinhado à esquerda no desktop */
+}
+
+/* Consultas de mídia para dispositivos móveis */
+@media (max-width: 768px) {
+    .Header {
+        font-size: 30px;
+        padding: 15px;
+    }
+
+    .content-wrapper {
+        flex-direction: column; /* Empilha os elementos na vertical no mobile */
+        padding: 10px;
+        align-items: center; /* Centraliza o conteúdo no mobile */
+    }
+
+    .Imagem {
+        width: 100%; /* Centraliza a imagem no mobile */
+        margin-right: 0; /* Remove margem direita */
+        margin-bottom: 20px;
+    }
+
+    .image-style {
+        max-width: 80%; /* Ajusta o tamanho da imagem em telas menores */
+        margin: 0 auto;
+    }
+
+    .TextAudio {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Text {
+        max-width: 100%; /* O texto usa toda a largura disponível */
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center; /* Centraliza o texto no mobile */
+    }
+
+    .audio {
+        width: 100%;
+    }
+}
+
+/* Estilos adicionais para telas pequenas, como celulares */
+@media (max-width: 480px) {
+    .Header {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .Imagem {
+        width: 100%; /* Garante que a imagem ocupe toda a largura no mobile */
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-style {
+        max-width: 70%; /* Reduz ainda mais o tamanho da imagem no celular */
+        margin: 0 auto;
+    }
+
+    .Text {
+        font-size: 14px;
+        text-align: center; /* Centraliza o texto no mobile */
+        margin: 0 auto;
+    }
+
+    .audio {
+        width: 100%;
+    }
+}
