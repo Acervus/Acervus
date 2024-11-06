@@ -1,0 +1,141 @@
+#header {
+  width: 100%;
+  height: var(--header-height);
+  background: var(--header-background);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+#headerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  max-width: var(--max-site-width);
+  margin-inline: auto;
+  height: 100%;
+  color: var(--header-text-color);
+}
+
+#logoWrapper {
+  height: 100%;
+  aspect-ratio: 3/1;
+  width: auto;
+  display: block;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#right {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.optionEntry {
+  min-width: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#navigation {
+  border-block: var(--header-nav-border-size) solid var(--header-nav-border-color);
+  height: fit-content;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.navigationItem {
+  color: var(--header-nav-item-color);
+  text-decoration: none;
+  font-style: italic;
+}
+
+#mobileOnly {
+  display: none;
+  aspect-ratio: 1;
+  height: 100%;
+  width: auto;
+  background: var(--header-nav-button-color);
+  border: var(--header-nav-border-size) solid var(--header-nav-border-color);
+  border-radius: calc(var(--border-radius) * 0.5rem);
+  cursor: pointer;
+  position: relative;
+}
+
+.hamburger {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 80%;
+  height: 15%;
+  background: var(--header-text-color);
+  transform: translate(-50%, -50%);
+  border-radius: calc(var(--border-radius) * 0.25rem);
+  transition: transform 0.25s ease, opacity 0.25s ease, top 0.25s ease;
+}
+
+.hamburger:nth-child(1) {
+  top: 25%;
+}
+
+.hamburger:nth-child(3) {
+  top: 75%;
+}
+
+.open .hamburger:nth-child(2) {
+  opacity: 0;
+}
+
+.open .hamburger:nth-child(1) {
+  transform: translate(-50%, -50%) rotate(-45deg);
+  top: 50%;
+}
+
+.open .hamburger:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(45deg);
+  top: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  #mobileOnly {
+    display: block;
+  }
+
+  #right {
+    display: none;
+  }
+
+  .open #right {
+    position: fixed;
+    height: calc(100dvh - var(--header-height));
+    width: 100%;
+    top: var(--header-height);
+    left: 0;
+    background: var(--header-background);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-between;
+  }
+
+  #navigation {
+    border: 0;
+    flex-direction: column;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+  }
+}

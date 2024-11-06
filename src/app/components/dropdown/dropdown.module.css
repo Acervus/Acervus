@@ -1,0 +1,159 @@
+.closeBox {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  z-index: 999999;
+  background: var(--background-fade-overlay);
+  inset: 0;
+  backdrop-filter: blur(2px);
+  transition: opacity 0.25s ease-in;
+}
+
+.open.closeBox, .dopen.closeBox {
+  display: block;
+}
+
+.open.dopen.closeBox {
+  opacity: 1;
+}
+
+.dropDownBox {
+  position: relative;
+  isolation: isolate;
+  border-radius: calc(var(--border-radius) * 0.5rem);
+  border: var(--menu-border-size) solid var(--menu-border-color);
+  transition: border-color 0.25s ease, border-radius 0.05s ease, width 0.5s ease;
+  background: var(--dropdown-background);
+}
+
+.dopen.dropDownBox {
+  transition: border-color 0.25s ease 0.15s, border-radius 0.25s ease 0.2s, width 0.5s ease;
+}
+
+.open.dropDownBox {
+  z-index: 9999999;
+  border-bottom: var(--menu-border-size) solid transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.open.openUp.dropDownBox {
+  border-radius: calc(var(--border-radius) * 0.5rem);
+  border: var(--menu-border-size) solid var(--menu-border-color);
+  border-top: var(--menu-border-size) solid transparent;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.selection {
+  display: none;
+  width: calc(100% + (var(--menu-border-size) * 2));
+  left: calc(0px - var(--menu-border-size));
+  height: fit-content;
+  flex-direction: column;
+  padding: 0.5rem;
+  gap: 0.25rem;
+  position: absolute;
+  border-radius: calc(var(--border-radius) * 0.5rem);
+  border: var(--menu-border-size) solid var(--menu-border-color);
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  clip-path: polygon(101% 0, 0 0, 0 0%, 101% 0%);
+  transition: clip-path 0.25s ease;
+  background: var(--dropdown-background);
+}
+
+.openUp .selection {
+  clip-path: polygon(101% 100%, 0 100%, 0 100%, 101% 100%);
+  transform: translateY(-100%);
+  top: 0;
+  border-radius: calc(var(--border-radius) * 0.5rem);
+  border: var(--menu-border-size) solid var(--menu-border-color);
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.open .selection, .dopen .selection {
+  display: flex;
+}
+
+.open.dopen .selection {
+  clip-path: polygon(101% 0, 0 0, 0 100%, 101% 100%);
+}
+
+.openUp.open.dopen .selection {
+  clip-path: polygon(101% 0, 0 0, 0 100%, 101% 100%);
+}
+
+.option {
+  border: 0;
+  border-radius: calc(var(--border-radius) * 0.5rem);
+  padding: 0.25rem;
+  width: 100%;
+  word-break: break-all;
+  color: var(--dropdown-text-color);
+  background: var(--dropdown-option-background);
+  transition: background 0.25s ease;
+}
+
+.option:hover {
+  background: var(--dropdown-option-hover-background);
+}
+
+.currentOption {
+  display: flex;
+  padding: 0.5rem;
+  background: var(--dropdown-option-active-background);
+  width: 100%;
+}
+
+.option:disabled {
+  background: var(--dropdown-option-disabled-background);
+}
+
+.currentTitle {
+  width: 100%;
+}
+
+.arrow {
+  position: relative;
+  aspect-ratio: 1;
+  height: auto;
+  width: 1rem;
+}
+
+.arrow::before {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 25%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-30%, -50%) rotate(-45deg);
+  background: var(--dropdown-text-color);
+  transition: transform 0.25s ease;
+  border-radius: 100vw;
+}
+
+.arrow::after {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 25%;
+  right: 0;
+  top: 50%;
+  transform: translate(-30%, -50%) rotate(45deg);
+  background: var(--dropdown-text-color);
+  transition: transform 0.25s ease;
+  border-radius: 100vw;
+}
+
+.open .arrow::after {
+  transform: translate(-30%, -50%) rotate(-45deg);
+}
+
+.open .arrow::before {
+  transform: translate(-30%, -50%) rotate(45deg);
+}

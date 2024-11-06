@@ -1,0 +1,20 @@
+{
+  "header": {
+    "logoAlt": "Logotipo: Acervus, Acervo Digital",
+    "logoDropdownTxt": "Lingua",
+    "navigation": {
+      "archive": "Acervo",
+      "about": "Sobre",
+      "contact": "Contato"
+    }
+  },
+  "pages": {
+    "homepage": {
+      "title": "Bem-vindo ao nosso site",
+      "description": "Este é um exemplo de um arquivo de idioma em JSON"
+    },
+    "items": {
+      "noSupportAudio": "Seu navegador não suporta reproduzir áudios"
+    }
+  }
+}

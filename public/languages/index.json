@@ -1,0 +1,11 @@
+{
+  "languages": [{
+    "id": "pt_br",
+    "name": "Português",
+    "filename": "pt_br.json"
+  }, {
+    "id": "en",
+    "name": "English",
+    "filename": "en.json"
+  }]
+}

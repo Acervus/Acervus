@@ -1,0 +1,7 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "semi": "error",
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }]
+  }
+}

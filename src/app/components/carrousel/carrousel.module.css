@@ -1,0 +1,113 @@
+.Carrousel {
+  --image-list-size: 5rem;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: calc(100% - var(--image-list-size)) var(--image-list-size);
+  background: var(--background-fade-overlay);
+  padding-inline: 1rem;
+  border-radius: calc(var(--border-radius) * 1rem);
+  justify-items: center;
+  min-height: 15rem;
+  grid-template-columns: 1fr;
+}
+
+#itemList {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  padding-block: 0.5rem;
+  overflow-x: auto;
+}
+
+.carrouselItem {
+  aspect-ratio: 1;
+  height: 100%;
+  width: auto;
+  cursor: pointer;
+  transition: border 0.25s ease, padding 0.25s ease;
+  border-radius: calc(var(--border-radius) * 0.75rem);
+}
+
+.carrouselInputs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advanceCarrousel, .rewindCarrousel {
+  aspect-ratio: 1;
+  width: auto;
+  height: 50%;
+  position: relative;
+  border: 0;
+  background: 0;
+  cursor: pointer;
+  transition: background 0.25s ease, border 0.25s ease;
+  border-radius: calc(var(--border-radius) * 0.5rem);
+}
+
+.advanceCarrousel:hover, .rewindCarrousel:hover {
+  background: var(--background-fade-overlay);
+  border: var(--carrousel-selected-border-size) solid var(--carrousel-selected-border-color);
+}
+
+.advanceCarrousel::before, .rewindCarrousel::after {
+  content: '';
+  width: 55%;
+  height: 25%;
+  left: 50%;
+  top: 50%;
+  background-color: var(--text-color);
+  position: absolute;
+  transform: translate(-50%, 0%) rotate(-45deg);
+}
+
+.advanceCarrousel::after, .rewindCarrousel::before {
+  content: '';
+  width: 55%;
+  height: 25%;
+  left: 50%;
+  top: 50%;
+  background-color: var(--text-color);
+  position: absolute;
+  transform: translate(-50%, -100%) rotate(45deg);
+}
+
+.rewindCarrousel::after {
+  transform: translate(-50%, 0%) rotate(45deg);
+}
+
+.rewindCarrousel::before {
+  transform: translate(-50%, -100%) rotate(-45deg);
+}
+
+.mainItem {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+
+.selectedItem {
+  border: var(--carrousel-selected-border-size) solid var(--carrousel-selected-border-color);
+  padding: 0.25rem;
+}
+
+.selectedItem .imageCover {
+  border-radius: calc(var(--border-radius) * 0.5rem);
+}
+
+@media screen and (max-width: 768px) {
+  .Carrousel {
+    position: relative;
+    top: 0;
+    height: 50svh;
+    min-height: 0;
+  }
+}
