@@ -1,0 +1,45 @@
+#footer {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+#background {
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--footer-background);
+  z-index: -1;
+}
+
+#left {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: top;
+}
+
+#logoWrapper {
+  display: flex;
+  justify-content: left;
+  align-items: top;
+  padding: 1rem;
+  max-height: var(--header-height);
+}
+
+.image {
+  width: fit-content;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  #footer {
+    grid-template-columns: 1fr;
+  }
+}

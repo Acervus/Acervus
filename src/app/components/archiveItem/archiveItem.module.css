@@ -1,0 +1,96 @@
+.archiveItem {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--archiveList-text-color);
+  isolation: isolate;
+}
+
+.backgroundImage {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+}
+
+@property --percentage {
+  syntax: '<number>'; /* <- defined as type number for the transition to work */
+  initial-value: 0;
+  inherits: false;
+}
+
+.archiveItem::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  --percentage: 0;
+  background: linear-gradient(0deg, var(--archiveList-hover-background) calc(90% + (var(--percentage) * 10%)), transparent 100%);
+  transform: translateY(100%);
+  transition: opacity 0.5s ease, transform 0.5s ease, --percentage 0.5s ease 0.25s;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.foregroundContent {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.archiveItem:hover .foregroundContent, .archiveItem:focus .foregroundContent {
+  opacity: 1;
+}
+
+.archiveItem:hover::after, .archiveItem:focus::after {
+  opacity: 0.25;
+  transform: translateY(0%);
+  --percentage: 1;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: var(--loading-skeleton-background);
+  animation: loading 2s infinite ;
+  color: var(--loading-skeleton-color);
+  background-size: 250% 250%;
+}
+
+@media screen and (max-width: 768px) {
+  .archiveItem:hover:not(:focus) .foregroundContent {
+    opacity: 0;
+  }
+
+  .archiveItem:hover:not(:focus)::after {
+    transform: translateY(100%);
+    --percentage: 0;
+  }
+}
+
+@keyframes loading {
+  0% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

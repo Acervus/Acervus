@@ -45,14 +45,36 @@
   flex-direction: column;
 }
 
+#title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#origin {
+  font-size: 1.5rem;
+}
+
 #description {
+  font-size: 1rem;
 }
 
 #audioPlayer {
   margin-block: 1rem;
 }
 
+.mobileOnly {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
+  .pcOnly {
+    display: none;
+  }
+
+  .mobileOnly {
+    display: block;
+  }
+
   #page {
     grid-template-columns: 1fr;
     grid-template-rows: auto;

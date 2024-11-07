@@ -1,7 +1,7 @@
 'use client';
 import { useRouter } from 'next/navigation';
 import React, { useState, useEffect, useContext } from 'react';
-import getItemData from './getItemData';
+import getItemData from '../../components/getItemData/getItemData';
 import { Item } from '../../interfaces/pages/item/item';
 import Image from 'next/image';
 import { LanguageContext } from '../../components/languageContext/languageContext';
@@ -29,6 +29,10 @@ export default function ArchivePage({ params }: { params: Promise<{ id: string }
   }
 
   return (<div id={styles.page}>
+    <div className={styles.mobileOnly}>
+      <h1 id={styles.title}>{item.data[currentLanguage].name}</h1>
+      <h3 id={styles.origin}>{item.data[currentLanguage].origin}</h3>
+    </div>
     <Carrousel
       elements={
         item.data[currentLanguage].images.map((image) => {
@@ -39,10 +43,10 @@ export default function ArchivePage({ params }: { params: Promise<{ id: string }
       extraStyle={styles.leftSideItem}
     />
     <div id={styles.details}>
-      <h1 id={styles.title}>{item.data[currentLanguage].name}</h1>
-      <h3 id={styles.origin}>{item.data[currentLanguage].origin}</h3>
+      <h1 className={styles.pcOnly} id={styles.title}>{item.data[currentLanguage].name}</h1>
+      <h3 className={styles.pcOnly} id={styles.origin}>{item.data[currentLanguage].origin}</h3>
       <audio controls id={styles.audioPlayer}>
-        <source src={`/database/${item.id}/${item.data[currentLanguage].audioPath}`} type='audio/mp3'/>
+        <source src={`/database/${item.id}/${item.data[currentLanguage].audioPath}`} type={`audio/${item.data[currentLanguage].audioPath.split('.').pop()}`}/>
         {language.currentLanguage.pages.items.noSupportAudio}
       </audio>
       <p id={styles.description}>{item.data[currentLanguage].description}</p>

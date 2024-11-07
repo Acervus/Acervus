@@ -5,6 +5,7 @@ import './globals.css';
 import { Language } from './components/languageContext/languageContext';
 import { Overlay } from './components/overlayContext/overlayContext';
 import Header from './components/Header/header';
+import Footer from './components/footer/footer';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <Header/>
             <div id='pageContent'>
               {children}
+              <Footer/>
             </div>
           </Language>
         </Overlay>

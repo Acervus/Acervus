@@ -61,6 +61,11 @@
   color: var(--header-nav-item-color);
   text-decoration: none;
   font-style: italic;
+  transition: color 0.25s ease;
+}
+
+.navigationItem:hover {
+  color: var(--header-nav-item-hover-color);
 }
 
 #mobileOnly {
