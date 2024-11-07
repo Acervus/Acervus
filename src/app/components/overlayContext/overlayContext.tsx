@@ -6,18 +6,19 @@ export const overlayContext = createContext({} as { showingOverlay: boolean | un
 
 export function Overlay({ children }: { children: React.ReactNode }) {
   const [showingOverlay, setShowingOverlay] = useState<boolean>(false);
-  let states = 0;
+  const [states, setStates] = useState<number>(0);
 
   function addToStates(state: boolean, force?: boolean): void {
     if (force) {
-      states = 0;
+      setStates(0);
       setShowingOverlay(state);
+	  return;
     }
     if (state) {
-      states++;
+      setStates(state+1);
       setShowingOverlay(true);
     } else {
-      states--;
+      setStates(state > 0 ? state-1 : 0);
       setShowingOverlay(states > 0);
     }
   }
