@@ -48,6 +48,7 @@
   cursor: pointer;
   transition: background 0.25s ease, border 0.25s ease;
   border-radius: calc(var(--border-radius) * 0.5rem);
+  border: var(--carrousel-selected-border-size) solid transparent;
 }
 
 .advanceCarrousel:hover, .rewindCarrousel:hover {
@@ -61,7 +62,7 @@
   height: 25%;
   left: 50%;
   top: 50%;
-  background-color: var(--text-color);
+  background: var(--carrousel-text-color);
   position: absolute;
   transform: translate(-50%, 0%) rotate(-45deg);
 }
@@ -72,7 +73,7 @@
   height: 25%;
   left: 50%;
   top: 50%;
-  background-color: var(--text-color);
+  background: var(--carrousel-text-color);
   position: absolute;
   transform: translate(-50%, -100%) rotate(45deg);
 }
