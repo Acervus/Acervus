@@ -1,0 +1,35 @@
+{
+  "loading": "Cargando",
+  "header": {
+    "logoAlt": "Logotipo: Acervus, Colección Digital",
+    "logoDropdownTxt": "Idioma",
+    "navigation": {
+      "archive": "Colección",
+      "about": "Acerca de",
+      "contact": "Contacto"
+    }
+  },
+  "pages": {
+    "homepage": {
+      "archive": {
+        "title": "Colección",
+        "showMore": "Mostrar más colecciones",
+        "showLess": "Mostrar menos colecciones"
+      },
+      "about": {
+        "title": "Acerca de nosotros",
+        "text": "Acervus es una empresa enfocada en la creación de colecciones digitales, combinando preservación histórica y tecnología para modernizar museos, monumentos conmemorativos y colecciones públicas y privadas de una manera accesible e interactiva para el público."
+      },
+      "contact": {
+        "title": "Contacto",
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "message": "Mensaje",
+        "send": "Enviar"
+      }
+    },
+    "items": {
+      "noSupportAudio": "Su navegador no admite la reproducción de audio"
+    }
+  }
+}

@@ -7,5 +7,9 @@
     "id": "en",
     "name": "English",
     "filename": "en.json"
+  }, {
+    "id": "es",
+    "name": "Español",
+    "filename": "es.json"
   }]
 }

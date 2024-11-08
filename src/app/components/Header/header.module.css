@@ -71,6 +71,7 @@
   font-family: var(--font-Montserrat);
   font-weight: 500;
   line-height: 1.5;
+  white-space: pre;
 }
 
 .navigationItem:hover {
