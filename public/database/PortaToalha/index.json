@@ -1,0 +1,46 @@
+{
+    "id": "PortaToalha",
+    "thumbnail": "PortaToalha.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Porta Toalha",
+        "audioPath": "PortaToalhasPTBR.WAV",
+        "images": [
+          {
+            "url": "PortaToalha.jpg",
+            "alt": "Porta Toalha"
+          }
+        ],
+        "name": "Porta Toalha",
+        "origin": "Doação Maria Dantas, Cabaços",
+        "description": "Um porta-toalha é um acessório para pendurar toalhas em banheiros, cozinhas ou áreas de serviço, facilitando organização e acessibilidade."
+      },
+      "en": {
+        "thumbnailAlt": "Towel Rack",
+        "audioPath": "PortaToalhaEN.WAV",
+        "images": [
+          {
+            "url": "PortaToalha.jpg",
+            "alt": "Towel Rack"
+          }
+        ],
+        "name": "Towel Rack - en",
+        "origin": "Donation from Maria Dantas, Cabaços",
+        "description": "A towel rack is an accessory used to hang towels, providing convenience and organization in bathrooms, kitchens, or laundry areas. It is available in various styles, materials, and shapes to suit the needs and decor of the space."
+      },
+      "es": {
+        "thumbnailAlt": "Portatoallas ",
+        "audioPath": "PortaToalhaES.WAV",
+        "images": [
+          {
+            "url": "PortaToalha.jpg",
+            "alt": "Portatoallas "
+          }
+        ],
+        "name": "Portatoallas  - es",
+        "origin": "DONACIÓN MARIA DANTAS, CABAÇOS",
+        "description": "Un portatoallas es un accesorio para colgar toallas en baños, cocinas o áreas de servicio, facilitando la organización y accesibilidad."
+      }
+
+    }
+  }

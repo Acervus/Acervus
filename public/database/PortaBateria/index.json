@@ -1,0 +1,45 @@
+{
+    "id": "PortaBateria",
+    "thumbnail": "portaBateria.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Porta Bateria",
+        "audioPath": "",
+        "images": [
+          {
+            "url": "portaBateria.jpg",
+            "alt": "Porta Bateria"
+          }
+        ],
+        "name": "Porta Bateria",
+        "origin": "",
+        "description": ""
+      },
+      "en": {
+        "thumbnailAlt": "Battery Holder",
+        "audioPath": "",
+        "images": [
+          {
+            "url": "portaBateria.jpg",
+            "alt": "Battery Holder"
+          }
+        ],
+        "name": "Battery Holder",
+        "origin": "",
+        "description": ""
+      },
+      "es": {
+        "thumbnailAlt": "Soporte para Batería",
+        "audioPath": "",
+        "images": [
+          {
+            "url": "portaBateria.jpg",
+            "alt": "Soporte para Batería"
+          }
+        ],
+        "name": "Soporte para Batería",
+        "origin": "",
+        "description": ""
+      }
+    }
+  }

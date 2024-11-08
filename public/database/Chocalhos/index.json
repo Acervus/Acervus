@@ -1,0 +1,45 @@
+{
+    "id": "Chocalhos",
+    "thumbnail": "chocalhos.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Chocalhos",
+        "audioPath": "ChocalhosPtBr.wav",
+        "images": [
+          {
+            "url": "chocalhos.jpg",
+            "alt": "Chocalhos"
+          }
+        ],
+        "name": "Chocalhos",
+        "origin": "Doação Fazenda Moura Panta",
+        "description": "Chocalhos de animal são instrumentos geralmente feitos de metal ou outros materiais, usados para produzir sons, como os utilizados em arreios de cavalos. Eles servem para avisar sobre a presença do animal, facilitar a localização e, em alguns casos, como ornamento."
+      },
+      "en": {
+        "thumbnailAlt": "Animal Bells",
+        "audioPath": "ChocalhosEN.wav",
+        "images": [
+          {
+            "url": "chocalhos.jpg",
+            "alt": "Animal Bells"
+          }
+        ],
+        "name": "Animal Bells - en",
+        "origin": "Donation from Moura Panta farm",
+        "description": "Animal Bells are instruments usually made of metal or other materials, used to produce sounds, such as those used in horse harnesses. They serve to warn of the animal's presence, make it easier to locate and, in some cases, as an ornament."
+      },
+      "es": {
+        "thumbnailAlt": "Chocalhos",
+        "audioPath": "ChocalhoES.wav",
+        "images": [
+          {
+            "url": "chocalhos.jpg",
+            "alt": "Chocalhos"
+          }
+        ],
+        "name": "Sonajas - es",
+        "origin": "Donación de la granja Moura Panta",
+        "description": "Los sonajeros de animales son instrumentos generalmente hechos de metal u otros materiales, que se utilizan para producir sonidos, como los que se usan en los arneses de los caballos. Sirven para avisar de la presencia del animal, facilitar su localización y, en algunos casos, como adorno."
+      }
+    }
+  }

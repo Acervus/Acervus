@@ -15,6 +15,17 @@
         "title": "Acervo",
         "showMore": "Mostrar mais acervos",
         "showLess": "Mostrar menos acervos"
+      },
+      "about": {
+        "title": "Sobre",
+        "text": "A Acervus é uma empresa focada na criação de acervos digitais, unindo preservação histórica e tecnologia para modernizar museus, memoriais, acervo públicos e particulares de forma acessível e interativa ao público."
+      },
+      "contact": {
+        "title": "Contato",
+        "name": "Nome",
+        "email": "E-mail",
+        "message": "Mensagem",
+        "send": "Enviar"
       }
     },
     "items": {

@@ -1,0 +1,46 @@
+{
+    "id": "QuadrosDeFotos",
+    "thumbnail": "Quadros.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Quadros de fotos",
+        "audioPath": "QuadosDeFotosPTBR.WAV",
+        "images": [
+          {
+            "url": "Quadros.jpg",
+            "alt": "Quadros de fotos"
+          }
+        ],
+        "name": "Quadros de fotos",
+        "origin": "DOAÇÃO BASTIÃO SABINO E DONA CRISTINA",
+        "description": "Quadros para foto são estruturas para exibir fotografias, permitindo que as pessoas mostrem suas memórias e estilo pessoal."
+      },
+      "en": {
+        "thumbnailAlt": "Photo Frames ",
+        "audioPath": "QuadrodeFotosENG.WAV",
+        "images": [
+          {
+            "url": "Quadros.jpg",
+            "alt": "Photo Frames "
+          }
+        ],
+        "name": "Photo Frames  - en",
+        "origin": "DONATED BY BASTIÃO SABINO AND DONA CRISTINA",
+        "description": "Photo frames are structures designed to display photographs or other artwork, serving as a popular form of decoration. They allow people to showcase memories, creativity, and personal style."
+      },
+      "es": {
+        "thumbnailAlt": "Marcos de Fotos ",
+        "audioPath": "QuadrodeFotosESP.WAV",
+        "images": [
+          {
+            "url": "Quadros.jpg",
+            "alt": "Marcos de Fotos  "
+          }
+        ],
+        "name": "Marcos de Fotos - es",
+        "origin": "DONACIÓN BASTIÃO SABINO Y DOÑA CRISTINA",
+        "description": "Los marcos para fotos son estructuras para exhibir fotografías, permitiendo que las personas muestren sus recuerdos y estilo personal."
+      }
+
+    }
+  }

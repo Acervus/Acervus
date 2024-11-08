@@ -1,0 +1,45 @@
+{
+    "id": "Abanadores",
+    "thumbnail": "abanador.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Abanadores",
+        "audioPath": "AbanadoresPTBR.WAV",
+        "images": [
+          {
+            "url": "abanador.jpg",
+            "alt": "Abanadores"
+          }
+        ],
+        "name": "Abanadores",
+        "origin": "Doação Agina",
+        "description": "Os abanadores criam movimento de ar para refrescar o ambiente ou auxiliar em acender fogueiras. Eles podem ser funcionais ou decorativos."
+      },
+      "en": {
+        "thumbnailAlt": "Hand Fans",
+        "audioPath": "AbanadoresEN.WAV",
+        "images": [
+          {
+            "url": "abanador.jpg",
+            "alt": "Hand Fans"
+          }
+        ],
+        "name": "Hand Fans - en",
+        "origin": "DONATION FROM AGINA",
+        "description": "Hand fans are utensils used to create air movement, generally to increase ventilation, cool the space, or help ignite fires. They can be made from various materials and come in different styles, from simple, functional options to decorative models."
+      },
+      "es": {
+        "thumbnailAlt": "Abanicos",
+        "audioPath": "AbanadoresES.WAV",
+        "images": [
+          {
+            "url": "abanador.jpg",
+            "alt": "Abanicos"
+          }
+        ],
+        "name": "Abanicos - es",
+        "origin": "DONACIÓN AGINA",
+        "description": "Los abanicos crean movimiento de aire para refrescar el ambiente o ayudar a encender fogatas. Pueden ser funcionales o decorativos."
+      }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": "CangaDeBode",
+    "thumbnail": "cangaDeBode.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Canga De Bode",
+        "images": [
+          {
+            "url": "cangaDeBode.jpg",
+            "alt": "Canga de Bode"
+          }
+        ],
+        "name": "Canga de Bode",
+        "origin": "Doação Fazenda Moura Panta"
+      },
+      "en": {
+        "thumbnailAlt": "Goat Yoke",
+        "images": [
+          {
+            "url": "cangaDeBode.jpg",
+            "alt": "Goat Yoke"
+          }
+        ],
+        "name": "Goat Yoke - en",
+        "origin": "Donation from Moura Panta farm"
+      },
+      "es": {
+        "thumbnailAlt": "Yugo de Cabra",
+        "images": [
+          {
+            "url": "cangaDeBode.jpg",
+            "alt": "Yugo de Cabra"
+          }
+        ],
+        "name": "Yugo de Cabra - es",
+        "origin": "Donación de la granja Moura Panta"
+      }
+    }
+  }

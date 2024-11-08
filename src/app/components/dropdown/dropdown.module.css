@@ -96,6 +96,10 @@
   color: var(--dropdown-text-color);
   background: var(--dropdown-option-background);
   transition: background 0.25s ease;
+  cursor: pointer;
+  font-family: var(--font-Montserrat);
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
 }
 
 .option:hover {
@@ -107,21 +111,26 @@
   padding: 0.5rem;
   background: var(--dropdown-option-active-background);
   width: 100%;
+  cursor: pointer;
 }
 
 .option:disabled {
   background: var(--dropdown-option-disabled-background);
+  cursor: not-allowed;
 }
 
 .currentTitle {
   width: 100%;
+  font-size: 1rem;
+  word-break: normal;
 }
 
 .arrow {
   position: relative;
   aspect-ratio: 1;
   height: auto;
-  width: 1rem;
+  width: 1.25rem;
+  margin-left: 0.25rem;
 }
 
 .arrow::before {
@@ -156,4 +165,8 @@
 
 .open .arrow::before {
   transform: translate(-30%, -50%) rotate(45deg);
+}
+
+.entryText {
+  font-size: 1rem;
 }

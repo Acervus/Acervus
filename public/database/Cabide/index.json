@@ -1,0 +1,45 @@
+{
+    "id": "Cabide",
+    "thumbnail": "cabide.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Cabide",
+        "audioPath": "CabidePTBR.WAV",
+        "images": [
+          {
+            "url": "cabide.jpg",
+            "alt": "Cabide"
+          }
+        ],
+        "name": "Cabide",
+        "origin": "Doação Antonio Matias, Alto dos Gomes",
+        "description": "Cabides antigos eram robustos e feitos de madeira maciça, metal ou ferro forjado, usados para pendurar roupas em armários, ao mesmo tempo funcionais e decorativos."
+      },
+      "en": {
+        "thumbnailAlt": "Hanger",
+        "audioPath": "CabideEN.WAV",
+        "images": [
+          {
+            "url": "cabide.jpg",
+            "alt": "Hanger"
+          }
+        ],
+        "name": "Hanger - en",
+        "origin": "DONATION FROM ANTONIO MATIAS, ALTO DOS GOMES",
+        "description": "Old hangers were functional and decorative items used to hang clothes in closets. Made mainly from materials like solid wood, metal, or even wrought iron, old hangers were generally more robust and intricately crafted than modern versions."
+      },
+      "es": {
+        "thumbnailAlt": "Perchero",
+        "audioPath": "CabideES.WAV",
+        "images": [
+          {
+            "url": "cabide.jpg",
+            "alt": "Perchero"
+          }
+        ],
+        "name": "Perchero  - es",
+        "origin": "DONACIÓN ANTONIO MATIAS, ALTO DOS GOMES",
+        "description": "Los percheros antiguos eran robustos y hechos de madera maciza, metal o hierro forjado, usados para colgar ropa en armarios, siendo a la vez funcionales y decorativos."
+      }
+    }
+  }

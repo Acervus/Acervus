@@ -1,0 +1,46 @@
+{
+    "id": "Rede",
+    "thumbnail": "rede.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Rede",
+        "audioPath": "RedePTBR.WAV",
+        "images": [
+          {
+            "url": "rede.jpg",
+            "alt": "Rede"
+          }
+        ],
+        "name": "Rede",
+        "origin": "Doação Maria, Irmã de Cristina",
+        "description": "As redes são feitas de tecido ou malha trançada, suspensas entre dois pontos, usadas para descanso. Tradicionalmente feitas de algodão ou sisal, são populares na América Latina, particularmente no Brasil."
+      },
+      "en": {
+        "thumbnailAlt": "Hammock",
+        "audioPath": "RedeEN.WAV",
+        "images": [
+          {
+            "url": "rede.jpg",
+            "alt": "Hammock"
+          }
+        ],
+        "name": "Hammock - en",
+        "origin": "DONATION FROM MARIA, SISTER OF CRISTINA",
+        "description": "Hammocks are fabric or woven mesh pieces suspended between two points, typically used for rest or relaxation. Traditionally made from materials like cotton or sisal, hammocks have their origins in Indigenous cultures in Latin America, especially in Brazil and Central America, where they were used as hanging beds."
+      },
+      "es": {
+        "thumbnailAlt": "Hamaca",
+        "audioPath": "RedeES.WAV",
+        "images": [
+          {
+            "url": "rede.jpg",
+            "alt": "Hamaca"
+          }
+        ],
+        "name": "Hamaca  - es",
+        "origin": "DONACIÓN MARIA, HERMANA DE CRISTINA",
+        "description": "Las hamacas están hechas de tela o malla tejida, suspendidas entre dos puntos, usadas para descansar. Tradicionalmente hechas de algodón o sisal, son populares en América Latina, particularmente en Brasil."
+      }
+
+    }
+  }

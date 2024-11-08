@@ -7,14 +7,14 @@ import { Overlay } from './components/overlayContext/overlayContext';
 import Header from './components/Header/header';
 import Footer from './components/footer/footer';
 
-const geistSans = localFont({
-  src: './fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
+const robotoSlab = localFont({
+  src: './fonts/RobotoSlab.ttf',
+  variable: '--font-roboto-slab',
   weight: '100 900',
 });
-const geistMono = localFont({
-  src: './fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
+const montSerrat = localFont({
+  src: './fonts/Montserrat.ttf',
+  variable: '--font-Montserrat',
   weight: '100 900',
 });
 
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${robotoSlab.variable} ${montSerrat.variable}`}>
         <Overlay>
           <Language>
             <Header/>

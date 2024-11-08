@@ -1,0 +1,98 @@
+#page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  grid-gap: 2rem;
+  position: relative;
+  padding: 1rem;
+  --carrousel-width: 3.5rem;
+}
+
+.mobileOnly {
+  display: none;
+}
+
+.loadingTitle {
+  width: 45%;
+  margin-bottom: 0.5rem;
+  height: 3.5ch;
+  background: var(--loading-skeleton-background);
+  background-size: 250%;
+  border-radius: calc(var(--border-radius) * 0.5rem);
+  animation: loading 2s infinite linear;
+}
+
+.loadingOrigin {
+  width: 75%;
+  height: 2ch;
+  background: var(--loading-skeleton-background);
+  background-size: 250%;
+  border-radius: calc(var(--border-radius) * 0.5rem);
+  animation: loading 2s infinite linear;
+}
+
+.loadingAudio {
+  width: 100%;
+  height: 3rem;
+  margin-block: 1rem;
+  background: var(--loading-skeleton-background);
+  background-size: 250%;
+  border-radius: calc(var(--border-radius) * 0.5rem);
+  animation: loading 2s infinite linear;
+}
+
+.loadingDescription {
+  width: 100%;
+  height: 2ch;
+  margin-block: 0.5rem;
+  background: var(--loading-skeleton-background);
+  background-size: 250%;
+  animation: loading 2s infinite linear;
+  border-radius: calc(var(--border-radius) * 0.5rem);
+}
+
+.loadingDescription:last-child {
+  width: 75%;
+}
+
+.loadingImage {
+  width: var(--carrousel-width);
+  height: 100%;
+  border-radius: calc(var(--border-radius) * 0.5rem);
+  background: var(--loading-skeleton-background);
+  background-size: 250%;
+  animation: loading 2s infinite linear;
+}
+
+.mainCarrouselStyle {
+  --carrousel-width: 100%;
+  width: auto !important;
+  height: 100% !important;
+  aspect-ratio: 16/8 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .pcOnly {
+    display: none;
+  }
+
+  .mobileOnly {
+    display: block;
+  }
+
+  #page {
+    grid-template-columns: 1fr;
+  }
+}
+
+@keyframes loading {
+  0% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 0 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

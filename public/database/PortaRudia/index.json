@@ -1,0 +1,45 @@
+{
+    "id": "PortaRudia",
+    "thumbnail": "portaRudia.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Porta Rúdia",
+        "audioPath": "PortaRudiaPTBR.WAV",
+        "images": [
+          {
+            "url": "portaRudia.jpg",
+            "alt": "Porta Rúdia"
+          }
+        ],
+        "name": "Porta Rúdia",
+        "origin": "Doação Joana Darc",
+        "description": "O porta-rúdia é um móvel tradicional, comumente usado em ambientes rurais, conferindo estilo rústico e aconchegante."
+      },
+      "en": {
+        "thumbnailAlt": "Rudia Holder",
+        "audioPath": "PortaRudiaEN.WAV",
+        "images": [
+          {
+            "url": "portaRudia.jpg",
+            "alt": "Rudia Holder"
+          }
+        ],
+        "name": "Rudia Holder - en",
+        "origin": "DONATION FROM JOANA DARC",
+        "description": "The rudia holder is a type of traditional furniture commonly found in rural areas or used as part of rustic and cozy decor."
+      },
+      "es": {
+        "thumbnailAlt": "Soporte para Rudia",
+        "audioPath": "PortaRudiaES.WAV",
+        "images": [
+          {
+            "url": "portaRudia.jpg",
+            "alt": "Soporte para Rudia"
+          }
+        ],
+        "name": "Soporte para Rudia  - es",
+        "origin": "DONACIÓN JOANA DARC",
+        "description": "El soporte para rudia es un mueble tradicional, comúnmente usado en entornos rurales, aportando un estilo rústico y acogedor."
+      }
+    }
+}

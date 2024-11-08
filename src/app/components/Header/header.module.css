@@ -42,9 +42,15 @@
 
 .optionEntry {
   min-width: 8rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#languageTitle {
+  font-size: 1.15rem;
+  font-family: var(--font-Montserrat);
 }
 
 #navigation {
@@ -62,6 +68,9 @@
   text-decoration: none;
   font-style: italic;
   transition: color 0.25s ease;
+  font-family: var(--font-Montserrat);
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .navigationItem:hover {

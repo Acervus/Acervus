@@ -17,6 +17,10 @@ export default function Footer(): React.ReactElement {
           <Image className={styles.image} alt={currentLanguage?.header.logoAlt} src='/images/Logo.png' width='0' height='0' sizes="100vw"/>
         </Link>
       </div>
+      <div id={styles.right}>
+        <Link href='https://www.instagram.com/acervusofc/' className={styles.socialLink}>Instagram: @acervusofc</Link>
+        <Link href='mailto:acervusoficial@gmail.com' className={styles.socialLink}>E-mail: acervusoficial@gmail.com</Link>
+      </div>
     </footer>
   );
 }

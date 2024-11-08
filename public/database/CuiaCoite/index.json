@@ -1,0 +1,45 @@
+{
+    "id": "CuiaCoite",
+    "thumbnail": "cuiaCoite.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Cuia Coité",
+        "audioPath": "CuiaCoitePTBR.WAV",
+        "images": [
+          {
+            "url": "cuiaCoite.jpg",
+            "alt": "Cuia Coité"
+          }
+        ],
+        "name": "Cuia Coité",
+        "origin": "",
+        "description": "A cuia coité é um recipiente tradicional do Nordeste brasileiro, feito do fruto do coité, usado para consumo de bebidas e também como peça decorativa."
+      },
+      "en": {
+        "thumbnailAlt": "Gourd Bowl (Coité)",
+        "audioPath": "CuiaCoiteEN.WAV",
+        "images": [
+          {
+            "url": "cuiaCoite.jpg",
+            "alt": "Gourd Bowl (Coité)"
+          }
+        ],
+        "name": "Gourd Bowl (Coité) - en",
+        "origin": "",
+        "description": "The gourd bowl is a traditional container, especially popular in northeastern Brazil, primarily used for drinking or as a decorative item. The bowl is made from the gourd fruit, which belongs to the cucurbit family, and has unique characteristics that make it highly appreciated."
+      },
+      "es": {
+        "thumbnailAlt": "Cuenco de Coité",
+        "audioPath": "CuicaCoiteES.WAV",
+        "images": [
+          {
+            "url": "cuiaCoite.jpg",
+            "alt": "Cuenco de Coité"
+          }
+        ],
+        "name": "Cuenco de Coité  - es",
+        "origin": "",
+        "description": "El cuenco de coité es un recipiente tradicional del noreste brasileño, hecho del fruto de la coité, usado para consumir bebidas y también como pieza decorativa."
+      }
+    }
+}

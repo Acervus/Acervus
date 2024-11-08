@@ -1,0 +1,46 @@
+{
+    "id": "CabacaDeGole",
+    "thumbnail": "cabacaDeGole.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Cabaça de Gole",
+        "audioPath": "CabacaGolePTBR.wav",
+        "images": [
+          {
+            "url": "cabacaDeGole.jpg",
+            "alt": "Cabaça de Gole"
+          }
+        ],
+        "name": "Cabaça de Gole",
+        "origin": "Doação Pimenta Braz",
+        "description": "A cabaça de gole é um tipo de cabaça tradicionalmente usada como recipiente para beber líquidos, especialmente em algumas culturas indígenas e afro-brasileiras. Ela é esculpida e preparada a partir do fruto seco da planta, com casca dura e resistente, ideal para fazer vasilhas."
+      },
+      "en": {
+        "thumbnailAlt": "Landuá",
+        "audioPath": "CabacaGoleEN.wav",
+        "images": [
+          {
+            "url": "cabacaDeGole.jpg",
+            "alt": "Drinking Gourd"
+          }
+        ],
+        "name": "Drinking Gourd - en",
+        "origin": "Donated by Pimenta Braz",
+        "description": "A drinking gourd is a type of gourd (from the plant Lagenaria siceraria, also known as calabash) traditionally used as a container for drinking liquids, especially in some Indigenous and Afro-Brazilian cultures. It is carved and prepared from the dried fruit, which has a hard, durable shell, making it ideal for creating vessels."
+      },
+      "es": {
+        "thumbnailAlt": "Calabaza de Bebida",
+        "audioPath": "CabacaGoleES.wav",
+        "images": [
+          {
+            "url": "cabacaDeGole.jpg",
+            "alt": "Calabaza de Bebida"
+          }
+        ],
+        "name": "Calabaza de Bebida - es",
+        "origin": "Donación Pimenta Braz",
+        "description": "La calabaza de bebida es un tipo de calabaza tradicionalmente usada como recipiente para beber líquidos, especialmente en algunas culturas indígenas y afro-brasileñas. Está esculpida y preparada a partir del fruto seco de la planta, con una cáscara dura y resistente, ideal para hacer vasijas."
+      }
+
+    }
+  }

@@ -1,0 +1,45 @@
+{
+    "id": "Caldeirao",
+    "thumbnail": "caldeirao.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Caldeirão",
+        "audioPath": "CaldeiraoPTBR.WAV",
+        "images": [
+          {
+            "url": "caldeirao.jpg",
+            "alt": "Caldeirão"
+          }
+        ],
+        "name": "Caldeirão",
+        "origin": "Doação Antonio Matias",
+        "description": "O caldeirão é um utensílio de cozinha grande, popular para preparar sopas, ensopados e molhos em grandes quantidades."
+      },
+      "en": {
+        "thumbnailAlt": "Cauldron",
+        "audioPath": "CaldeiraoEN.WAV",
+        "images": [
+          {
+            "url": "caldeirao.jpg",
+            "alt": "Cauldron"
+          }
+        ],
+        "name": "Cauldron - en",
+        "origin": "DONATION FROM ANTONIO MATIAS",
+        "description": "The cauldron is a large, deep cooking pot traditionally used to cook, boil, or prepare food in large quantities. It is especially popular in many cultures for dishes like soups, stews, sauces, and even food preservation."
+      },
+      "es": {
+        "thumbnailAlt": "Caldero",
+        "audioPath": "CaldeiraoES.WAV",
+        "images": [
+          {
+            "url": "caldeirao.jpg",
+            "alt": "Caldero"
+          }
+        ],
+        "name": "Caldero - es",
+        "origin": "DONACIÓN ANTONIO MATIAS",
+        "description": "El caldero es un utensilio de cocina grande, popular para preparar sopas, guisos y salsas en grandes cantidades."
+      }
+    }
+}

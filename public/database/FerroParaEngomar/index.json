@@ -1,0 +1,45 @@
+{
+    "id": "FerroParaEngomar",
+    "thumbnail": "FerroDeEngomar.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Ferro para engomar",
+        "audioPath": "FerroparaEngomarPTBR.WAV",
+        "images": [
+          {
+            "url": "FerroDeEngomar.jpg",
+            "alt": "Ferro para engomar"
+          }
+        ],
+        "name": "Ferro para engomar",
+        "origin": "Doação Sítio Alto dos Gomes",
+        "description": "O ferro de engomar é um aparelho usado para remover rugas de tecidos, proporcionando uma aparência mais cuidada. Utiliza calor e, em alguns casos, vapor para alisar as fibras dos tecidos."
+      },
+      "en": {
+        "thumbnailAlt": "Iron for Ironing",
+        "audioPath": "FerroParaEngomarEN.WAV",
+        "images": [
+          {
+            "url": "FerroDeEngomar.jpg",
+            "alt": "Iron for Ironing"
+          }
+        ],
+        "name": "Iron for Ironing - en",
+        "origin": "Donated by Alto dos Gomes Farm",
+        "description": "An iron, also known as a clothes iron, is a device used to remove wrinkles and creases from fabrics, giving clothes a neat and well-maintained appearance. The iron uses heat and often steam to smooth fabric fibers, with adjustable temperature settings to accommodate various materials."
+      },
+      "es": {
+        "thumbnailAlt": "Plancha",
+        "audioPath": "FerroParaEngomarES.WAV",
+        "images": [
+          {
+            "url": "FerroDeEngomar.jpg",
+            "alt": "Plancha"
+          }
+        ],
+        "name": "Plancha - es",
+        "origin": "Donación Granja Alto dos Gomes",
+        "description": "La plancha es un aparato usado para eliminar arrugas en los tejidos, proporcionando una apariencia más cuidada. Utiliza calor y, en algunos casos, vapor para alisar las fibras de las telas."
+      }
+    }
+  }

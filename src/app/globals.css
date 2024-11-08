@@ -8,6 +8,8 @@
   /* --foreground: #1E0D5D; */
   --foreground: #000;
 
+  --homepage-section-bg: #eff2fd;
+
   --background-fade-overlay: #7777;
   --dropdown-background: #D1D7F1;
   --dropdown-text-color: #fff;
@@ -37,7 +39,7 @@
   --archiveList-text-color: #fff;
 
   --carrousel-selected-border-size: 2px;
-  --carrousel-selected-border-color: #F1E6D2;
+  --carrousel-selected-border-color: #eff2fd;
   --carrousel-text-color: #eff2fd;
 
   --scrollbar-background: transparent;
@@ -46,13 +48,16 @@
   --scrollbar-handle-active-color: #7B7A7A;
 
   --loading-skeleton-background: linear-gradient(45deg, #5f5f5f, #e9e9e9, #5f5f5f);
+
+  --submit-form-hover-background: #d1d7f1;
+  --submit-form-active-background: #9892ff;
 }
 
 html, body {
   max-width: 100vw;
 
   scroll-behavior: smooth;
-  scroll-margin: calc(-1 * (var(--header-height) + 1rem));
+  scroll-margin: calc((var(--header-height) + 1rem));
 }
 
 body {

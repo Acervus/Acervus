@@ -31,7 +31,7 @@ export default function DropDown(props: { options: DropdownOption[], defaultValu
               props.onChange(item.value);
               setOpen(false);
             }}>
-              <span>{item.text}</span>
+              <span className={styles.entryText}>{item.text}</span>
             </button>);
           })}
         </div>

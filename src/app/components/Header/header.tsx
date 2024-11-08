@@ -43,12 +43,12 @@ export default function Header(): React.ReactElement {
       </button>
       <div id={styles.right}>
         <nav id={styles.navigation}>
-          <Link className={styles.navigationItem} href='/#acervo'>{currentLanguage?.header.navigation.archive}</Link>
-          <Link className={styles.navigationItem} href='/#sobre'>{currentLanguage?.header.navigation.about}</Link>
-          <Link className={styles.navigationItem} href='/#contato'>{currentLanguage?.header.navigation.contact}</Link>
+          <Link className={styles.navigationItem} href='/#acervo' onClick={() => { toggleMobileMenu(false); }}>{currentLanguage?.header.navigation.archive}</Link>
+          <Link className={styles.navigationItem} href='/#sobre' onClick={() => { toggleMobileMenu(false); }}>{currentLanguage?.header.navigation.about}</Link>
+          <Link className={styles.navigationItem} href='/#contato' onClick={() => { toggleMobileMenu(false); }}>{currentLanguage?.header.navigation.contact}</Link>
         </nav>
         <div className={styles.optionEntry}>
-          <span>{currentLanguage?.header.logoDropdownTxt}</span>
+          <span id={styles.languageTitle}>{currentLanguage?.header.logoDropdownTxt}</span>
           <DropDown
             options={ availableLangs.map((lang) => {return { value: lang.id, text: lang.name }; }) }
             defaultValue={languages.selected}

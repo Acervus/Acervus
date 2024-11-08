@@ -1,0 +1,45 @@
+{
+    "id": "PoteComPe",
+    "thumbnail": "potePe.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Pote com Pé",
+        "audioPath": "PoteComPePTBR.WAV",
+        "images": [
+          {
+            "url": "potePe.jpg",
+            "alt": "Pote com Pé"
+          }
+        ],
+        "name": "Pote com Pé",
+        "origin": "Doação Preta de Zé Gomes, Alto dos Gomes",
+        "description": "Potes de barro são recipientes tradicionais feitos de argila moldada e cozida, usados para armazenar alimentos, água e outros itens, sendo duráveis e versáteis."
+      },
+      "en": {
+        "thumbnailAlt": "Footed Pot",
+        "audioPath": "PoteComPeEN.WAV",
+        "images": [
+          {
+            "url": "potePe.jpg",
+            "alt": "Footed Pot"
+          }
+        ],
+        "name": "Footed Pot - en",
+        "origin": "DONATION FROM PRETA OF ZÉ GOMES, ALTO DOS GOMES",
+        "description": "The clay pot is a traditional container made from molded clay and kiln-fired, historically used to store food, water, and other items. Clay pots are widely associated with cultural and artisanal practices across various regions, valued for their durability, versatility, and thermal properties."
+      },
+      "es": {
+        "thumbnailAlt": "Olla de Barro con Base ",
+        "audioPath": "PodeComPeES.WAV",
+        "images": [
+          {
+            "url": "potePe.jpg",
+            "alt": "Olla de Barro con Base "
+          }
+        ],
+        "name": "Olla de Barro con Base   - es",
+        "origin": "DONACIÓN PRETA DE ZÉ GOMES, ALTO DOS GOMES",
+        "description": "Las ollas de barro son recipientes tradicionales hechos de arcilla moldeada y cocida, usados para almacenar alimentos, agua y otros artículos, siendo duraderas y versátiles."
+      }
+    }
+  }

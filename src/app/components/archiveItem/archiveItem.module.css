@@ -13,6 +13,10 @@
   position: absolute;
   inset: 0;
   z-index: -2;
+  background: var(--loading-skeleton-background);
+  animation: loading 2s infinite ;
+  color: var(--loading-skeleton-color);
+  background-size: 250% 250%;
 }
 
 @property --percentage {

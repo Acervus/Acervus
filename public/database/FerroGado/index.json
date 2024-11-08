@@ -1,0 +1,46 @@
+{
+    "id": "FerroGado",
+    "thumbnail": "ferroGado.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Ferro de Ferrar Gado",
+        "audioPath": "FerroDeFerrarGadoPTBR.WAV",
+        "images": [
+          {
+            "url": "ferroGado.jpg",
+            "alt": "Ferro de Ferrar Gado"
+          }
+        ],
+        "name": "Ferro de Ferrar Gado",
+        "origin": "Doação Fazenda Moura Panta",
+        "description": "O ferro de ferrar gado, ou ferro de marcação, é uma ferramenta utilizada na pecuária para marcar o gado, identificando a propriedade do animal. Essa prática é comum em áreas rurais com criação de gado."
+      },
+      "en": {
+        "thumbnailAlt": "Cattle Branding Iron",
+        "audioPath": "FerroDeFerrarGadoEN.WAV",
+        "images": [
+          {
+            "url": "ferroGado.jpg",
+            "alt": "Cattle Branding Iron"
+          }
+        ],
+        "name": "Cattle Branding Iron - en",
+        "origin": "DONATION FROM MOURA PANTA FARM",
+        "description": "The cattle branding iron, also known as a branding iron, is a tool used in livestock management to mark cattle and identify ownership. This practice is common in rural areas worldwide where cattle farming is an essential activity."
+      },
+      "es": {
+        "thumbnailAlt": "Hierro para Marcar Ganado",
+        "audioPath": "FerroDeFerrarGadoES.WAV",
+        "images": [
+          {
+            "url": "ferroGado.jpg",
+            "alt": "Hierro para Marcar Ganado"
+          }
+        ],
+        "name": "Hierro para Marcar Ganado - es",
+        "origin": "DONACIÓN FAZENDA MOURA PANTA",
+        "description": "El hierro para marcar ganado es una herramienta utilizada en la ganadería para marcar al ganado, identificando la propiedad del animal. Esta práctica es común en áreas rurales donde se cría ganado."
+      }
+
+    }
+  }

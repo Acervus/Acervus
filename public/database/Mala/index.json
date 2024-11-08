@@ -1,0 +1,45 @@
+{
+    "id": "Mala",
+    "thumbnail": "mala.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Mala",
+        "audioPath": "MalaPTBR.WAV",
+        "images": [
+          {
+            "url": "mala.jpg",
+            "alt": "Mala"
+          }
+        ],
+        "name": "Mala",
+        "origin": "Doação Maria Mata",
+        "description": "As malas são essenciais para transportar pertences pessoais em viagens. Tradicionalmente feitas de couro, madeira ou lona, elas oferecem resistência e durabilidade em diversos tamanhos e formatos."
+      },
+      "en": {
+        "thumbnailAlt": "Suitcase",
+        "audioPath": "MalaEN.WAV",
+        "images": [
+          {
+            "url": "mala.jpg",
+            "alt": "Suitcase"
+          }
+        ],
+        "name": "Suitcase - en",
+        "origin": "DONATION FROM MARIA MATA",
+        "description": "Suitcases are essential accessories for transporting personal belongings while traveling. They come in various sizes, shapes, and materials, from small carry-ons to large travel trunks. Traditionally, suitcases were made of leather, wood, or canvas for durability and strength."
+      },
+      "es": {
+        "thumbnailAlt": "Maleta",
+        "audioPath": "MalaES.WAV",
+        "images": [
+          {
+            "url": "mala.jpg",
+            "alt": "Maleta"
+          }
+        ],
+        "name": "Maleta - es",
+        "origin": "DONACIÓN MARIA MATA",
+        "description": "Las maletas son esenciales para transportar pertenencias personales en viajes. Tradicionalmente hechas de cuero, madera o lona, ofrecen resistencia y durabilidad en varios tamaños y formas."
+      }
+    }
+  }

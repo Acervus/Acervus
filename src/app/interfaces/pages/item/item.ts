@@ -4,7 +4,7 @@ export interface Item {
   data: {
     [lang: string]: {
       thumbnailAlt: string;
-      audioPath: string;
+      audioPath?: string;
       images: {
         url: string;
         alt: string;

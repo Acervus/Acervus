@@ -1,0 +1,46 @@
+{
+    "id": "SacolaDePente",
+    "thumbnail": "sacolaDePente.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Sacola de Pente",
+        "audioPath": "SacolaDePentePTBR.WAV",
+        "images": [
+          {
+            "url": "sacolaDePente.jpg",
+            "alt": "Sacola de Pente"
+          }
+        ],
+        "name": "Sacola de Pente",
+        "origin": "Doação Joana Darc",
+        "description": "A sacola de pente é um acessório usado por cabeleireiros e profissionais da beleza para organizar e transportar ferramentas de trabalho, como pentes, escovas e outros utensílios de cabelo."
+      },
+      "en": {
+        "thumbnailAlt": "Comb Bag",
+        "audioPath": "SacolaDePenteEN.WAV",
+        "images": [
+          {
+            "url": "sacolaDePente.jpg",
+            "alt": "Comb Bag"
+          }
+        ],
+        "name": "Comb Bag - en",
+        "origin": "DONATION FROM JOANA DARC",
+        "description": "A comb bag is an accessory often used by hairstylists and beauty professionals to organize and transport work tools, like combs, brushes, and other hair styling utensils."
+      },
+      "es": {
+        "thumbnailAlt": "Bolsa de Peines",
+        "audioPath": "SacolaDePenteES.WAV",
+        "images": [
+          {
+            "url": "sacolaDePente.jpg",
+            "alt": "Bolsa de Peines"
+          }
+        ],
+        "name": "Bolsa de Peines - es",
+        "origin": "DONACIÓN JOANA DARC",
+        "description": "La bolsa de peines es un accesorio usado por peluqueros y profesionales de la belleza para organizar y transportar herramientas de trabajo, como peines, cepillos y otros utensilios para el cabello."
+      }
+
+    }
+  }

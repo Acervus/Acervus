@@ -1,0 +1,46 @@
+{
+    "id": "CortinaFuxico",
+    "thumbnail": "cortinaFuxico.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Cortina de Fuxico",
+        "audioPath": "CortinaDeFuxicoPTBR.WAV",
+        "images": [
+          {
+            "url": "cortinaFuxico.jpg",
+            "alt": "Cortina de Fuxico"
+          }
+        ],
+        "name": "Cortina de Fuxico",
+        "origin": "Doação Ilda de Antonio de Aquino",
+        "description": "A cortina de fuxico é uma peça decorativa artesanal feita a partir de pequenos círculos de tecido, conhecidos como 'fuxicos', costurados entre si, geralmente de retalhos leves e coloridos, criando um visual vibrante e artesanal."
+      },
+      "en": {
+        "thumbnailAlt": "Patchwork Curtain",
+        "audioPath": "CortinaDeFuxicoEN.WAV",
+        "images": [
+          {
+            "url": "cortinaFuxico.jpg",
+            "alt": "Patchwork Curtain"
+          }
+        ],
+        "name": "Patchwork Curtain - en",
+        "origin": "DONATION FROM ILDA DE ANTONIO DE AQUINO",
+        "description": "A patchwork curtain is a handcrafted decorative item made from small circles of fabric, known as 'patches,' sewn together. These patches are usually made from fabric scraps, such as cotton, creating a colorful, vibrant, and textured appearance. The curtains can be arranged in rows or geometric patterns, giving them a delicate, artisanal look."
+      },
+      "es": {
+        "thumbnailAlt": "Cortina de Fuxico",
+        "audioPath": "CortinaDeFuxicoES.WAV",
+        "images": [
+          {
+            "url": "cortinaFuxico.jpg",
+            "alt": "Cortina de Fuxico"
+          }
+        ],
+        "name": "Cortina de Fuxico - es",
+        "origin": "DONACIÓN ILDA DE ANTONIO DE AQUINO",
+        "description": "La cortina de fuxico es una pieza decorativa artesanal hecha con pequeños círculos de tela, conocidos como 'fuxicos', cosidos entre sí, generalmente de retazos livianos y coloridos, creando un aspecto vibrante y artesanal."
+      }
+
+    }
+  }

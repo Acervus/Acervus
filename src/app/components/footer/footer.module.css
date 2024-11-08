@@ -29,6 +29,7 @@
   align-items: top;
   padding: 1rem;
   max-height: var(--header-height);
+  pointer-events: none;
 }
 
 .image {
@@ -36,6 +37,22 @@
   max-width: 100%;
   height: 100%;
   object-fit: contain;
+  pointer-events: all;
+}
+
+#right {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding: 1rem;
+}
+
+.socialLink {
+  color: var(--text-color);
+  text-decoration: none;
+  margin-block: 0.25rem;
+  font-size: 1rem;
+  font-family: var(--font-roboto-slab);
 }
 
 @media screen and (max-width: 768px) {

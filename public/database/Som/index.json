@@ -1,0 +1,46 @@
+{
+    "id": "Som",
+    "thumbnail": "radio.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Som",
+        "audioPath": "SomPTBR.WAV",
+        "images": [
+          {
+            "url": "radio.jpg",
+            "alt": "Som"
+          }
+        ],
+        "name": "Som",
+        "origin": "",
+        "description": "O som antigo refere-se a equipamentos de áudio, como toca-discos e rádios, populares em décadas passadas. Valorizados por estética vintage e qualidade sonora."
+      },
+      "en": {
+        "thumbnailAlt": "Vintage Audio Equipment",
+        "audioPath": "SomEN.WAV",
+        "images": [
+          {
+            "url": "radio.jpg",
+            "alt": "Vintage Audio Equipment"
+          }
+        ],
+        "name": "Vintage Audio Equipment - en",
+        "origin": "",
+        "description": "Vintage audio equipment refers to older audio devices, such as record players, radios, and stereos that were popular in past decades. These items have a nostalgic charm and are valued for both their vintage aesthetics and the unique sound quality they provide."
+      },
+      "es": {
+        "thumbnailAlt": "Equipo de Sonido",
+        "audioPath": "SomES.WAV",
+        "images": [
+          {
+            "url": "radio.jpg",
+            "alt": "Equipo de Sonido"
+          }
+        ],
+        "name": "Equipo de Sonido - es",
+        "origin": "",
+        "description": "El equipo de sonido antiguo se refiere a dispositivos de audio, como tocadiscos y radios, populares en décadas pasadas. Son valorados por su estética vintage y calidad sonora."
+      }
+
+    }
+  }

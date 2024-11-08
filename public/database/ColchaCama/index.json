@@ -1,0 +1,45 @@
+{
+    "id": "ColchaCama",
+    "thumbnail": "",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Colcha da Cama",
+        "audioPath": "ColchaDeCamaPTBR.WAV",
+        "images": [
+          {
+            "url": "",
+            "alt": "Colcha da Cama"
+          }
+        ],
+        "name": "Colcha da Cama",
+        "origin": "Doação Joana Darc",
+        "description": "Os colchões das camas antigas eram finos e simples comparados aos modernos, frequentemente feitos com enchimento natural como algodão, lã ou crina de cavalo, com sistema de molas para suporte."
+      },
+      "en": {
+        "thumbnailAlt": "Bedspread",
+        "audioPath": "ColchaDeCamaEN.WAV",
+        "images": [
+          {
+            "url": "",
+            "alt": "Bedspread"
+          }
+        ],
+        "name": "Bedspread - en",
+        "origin": "DONATION FROM JOANA DARC",
+        "description": "Old spring mattresses were typically thinner and simpler compared to modern mattresses. These mattresses were often filled with natural materials such as cotton, wool, or horsehair and featured an internal spring system for support."
+      },
+      "es": {
+        "thumbnailAlt": "Colcha de la Cama",
+        "audioPath": "ColchaDeCamaES.WAV",
+        "images": [
+          {
+            "url": "",
+            "alt": "Colcha de la Cama"
+          }
+        ],
+        "name": "Colcha de la Cama - es",
+        "origin": "DONACIÓN JOANA DARC",
+        "description": "Las colchas de las camas antiguas eran delgadas y simples en comparación con las modernas, a menudo hechas con rellenos naturales como algodón, lana o crin de caballo, con un sistema de resortes para soporte."
+      }
+    }
+  }

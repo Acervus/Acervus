@@ -1,0 +1,46 @@
+{
+    "id": "Lampiao",
+    "thumbnail": "lampiao.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Lampião",
+        "audioPath": "LampiaoPTBR.WAV",
+        "images": [
+          {
+            "url": "lampiao.jpg",
+            "alt": "Lampião"
+          }
+        ],
+        "name": "Lampião",
+        "origin": "",
+        "description": "O lampião de luz é um dispositivo de iluminação que usa querosene ou óleo. Embora substituídos por lâmpadas elétricas, ainda são populares em áreas rurais e acampamentos."
+      },
+      "en": {
+        "thumbnailAlt": "Kerosene Lamp",
+        "audioPath": "LampiaoEN.WAV",
+        "images": [
+          {
+            "url": "lampiao.jpg",
+            "alt": "Kerosene Lamp"
+          }
+        ],
+        "name": "Kerosene Lamp - en",
+        "origin": "",
+        "description": "The kerosene lamp, also known as an oil or fuel lamp, is a lighting device that uses a fuel source such as kerosene or oil to produce light. These lamps have been used across various cultures throughout history, and while largely replaced by modern lighting, they remain popular in rural areas, during camping, or for decorative purposes."
+      },
+      "es": {
+        "thumbnailAlt": "Lamparilla",
+        "audioPath": "LampiaoES.WAV",
+        "images": [
+          {
+            "url": "lampiao.jpg",
+            "alt": "Lamparilla"
+          }
+        ],
+        "name": "Lamparilla - es",
+        "origin": "",
+        "description": "La lamparilla es un dispositivo de iluminación que usa queroseno o aceite. Aunque ha sido reemplazada por lámparas eléctricas, sigue siendo popular en áreas rurales y en campamentos."
+      }
+
+    }
+  }

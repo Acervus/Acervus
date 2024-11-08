@@ -1,0 +1,45 @@
+{
+    "id": "Pote",
+    "thumbnail": "",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Pé de pote",
+        "audioPath": "PotePTBR.WAV",
+        "images": [
+          {
+            "url": "",
+            "alt": "Pote"
+          }
+        ],
+        "name": "Pote",
+        "origin": "Doação Igreja São Geraldo Majella",
+        "description": "Um pote é um recipiente usado para armazenar ou apresentar diferentes materiais, comum em cozinhas, jardins e na decoração de ambientes."
+      },
+      "en": {
+        "thumbnailAlt": "Pot ",
+        "audioPath": "PoteEN.WAV",
+        "images": [
+          {
+            "url": "",
+            "alt": "Pot"
+          }
+        ],
+        "name": "Pot - en",
+        "origin": "Donated by São Geraldo Majella Church",
+        "description": "A pot is a container used for storing, cultivating, or displaying various materials, commonly found in kitchens, gardens, and decor settings. Pots can vary in size, shape, material, and purpose."
+      },
+      "es": {
+        "thumbnailAlt": "Pote",
+        "audioPath": "PoteES.WAV",
+        "images": [
+          {
+            "url": "",
+            "alt": "Pote"
+          }
+        ],
+        "name": "Pote - es",
+        "origin": "Donación Iglesia São Geraldo Majella",
+        "description": "Un pote es un recipiente utilizado para almacenar o presentar diferentes materiales, común en cocinas, jardines y en la decoración de ambientes."
+      }
+    }
+  }

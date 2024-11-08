@@ -12,15 +12,16 @@ export function Overlay({ children }: { children: React.ReactNode }) {
     if (force) {
       setStates(0);
       setShowingOverlay(state);
-	  return;
+      return;
     }
     if (state) {
-      setStates(state+1);
+      setStates(states + 1);
       setShowingOverlay(true);
     } else {
-      setStates(state > 0 ? state-1 : 0);
-      setShowingOverlay(states > 0);
+      setShowingOverlay((states - 1) > 0);
+      setStates(states > 0 ? states -1 : 0);
     }
+    console.log(showingOverlay, states);
   }
 
   useEffect(() => {

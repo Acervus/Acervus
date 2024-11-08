@@ -1,0 +1,45 @@
+{
+    "id": "Cama",
+    "thumbnail": "cama.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Cama",
+        "audioPath": "CamaPTBR.WAV",
+        "images": [
+          {
+            "url": "cama.jpg",
+            "alt": "Cama"
+          }
+        ],
+        "name": "Cama",
+        "origin": "Doação Toinho Marcelino e Clara",
+        "description": "As camas antigas, populares no século XIX e início do XX, tinham estrutura robusta de madeira ou metal e utilizavam um sistema de molas na base para suporte e conforto."
+      },
+      "en": {
+        "thumbnailAlt": "Bed",
+        "audioPath": "CamaEN.WAV",
+        "images": [
+          {
+            "url": "cama.jpg",
+            "alt": "Bed"
+          }
+        ],
+        "name": "Bed - en",
+        "origin": "DONATION FROM TOINHO MARCELINO AND CLARA",
+        "description": "Antique beds were popular primarily during the 19th and early 20th centuries, featuring a robust structure often made of wood or metal with a spring base for support and comfort."
+      },
+      "es": {
+        "thumbnailAlt": "Cama",
+        "audioPath": "CamaES.WAV",
+        "images": [
+          {
+            "url": "cama.jpg",
+            "alt": "Cama"
+          }
+        ],
+        "name": "Cama - es",
+        "origin": "DONACIÓN TOINHO MARCELINO Y CLARA",
+        "description": "Las camas antiguas, populares en el siglo XIX y principios del XX, tenían una estructura robusta de madera o metal y utilizaban un sistema de resortes en la base para soporte y comodidad."
+      }
+    }
+  }

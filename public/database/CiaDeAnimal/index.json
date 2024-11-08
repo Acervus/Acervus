@@ -1,0 +1,39 @@
+{
+    "id": "CiaDeAnimal",
+    "thumbnail": "ciaDeAnimal.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Cia de Animal",
+        "images": [
+          {
+            "url": "ciaDeAnimal.jpg",
+            "alt": "Cia de Animal"
+          }
+        ],
+        "name": "Cia de Animal",
+        "origin": "Doação Fazenda Moura Panta"
+      },
+      "en": {
+        "thumbnailAlt": "Animal Harness",
+        "images": [
+          {
+            "url": "ciaDeAnimal.jpg",
+            "alt": "Animal Harness"
+          }
+        ],
+        "name": "Animal Harness - en",
+        "origin": "Donation from Moura Panta farm"
+      },
+      "es": {
+        "thumbnailAlt": "Cia de Animal",
+        "images": [
+          {
+            "url": "ciaDeAnimal.jpg",
+            "alt": "Cia de Animal"
+          }
+        ],
+        "name": "Cia de Animal - es",
+        "origin": "Donación de la granja Moura Panta"
+      }
+    }
+  }

@@ -1,0 +1,46 @@
+{
+    "id": "BancoDeMadeira",
+    "thumbnail": "banco.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Banco de Madeira",
+        "audioPath": "BancoDeMadeiraPTBR.WAV",
+        "images": [
+          {
+            "url": "banco.jpg",
+            "alt": "Banco de Madeira"
+          }
+        ],
+        "name": "Banco de Madeira",
+        "origin": " Doação Antonio Matias, Alto dos Gomes",
+        "description": "O banco de madeira é um tipo de mobiliário que oferece assento, geralmente sem encosto, e é feito predominantemente de madeira. Versátil, pode ser usado em ambientes internos e externos."
+      },
+      "en": {
+        "thumbnailAlt": "Wooden Bench",
+        "audioPath": "BancoDeMadeiraEN.WAV",
+        "images": [
+          {
+            "url": "banco.jpg",
+            "alt": "Wooden Bench"
+          }
+        ],
+        "name": "Wooden Bench - en",
+        "origin": "DONATION FROM ANTONIO MATIAS, ALTO DOS GOMES",
+        "description": "The wooden bench is a type of furniture that provides seating, typically without a backrest, and is primarily made of wood. These benches are versatile and can be used in various settings, both indoors and outdoors."
+      },
+      "es": {
+        "thumbnailAlt": "Banco de Madera",
+        "audioPath": "BandoDeMadeiraES.WAV",
+        "images": [
+          {
+            "url": "banco.jpg",
+            "alt": "Banco de Madera"
+          }
+        ],
+        "name": "Banco de Madera - es",
+        "origin": "DONACIÓN ANTONIO MATIAS, ALTO DOS GOMES",
+        "description": "El banco de madera es un tipo de mueble que ofrece un asiento, generalmente sin respaldo, hecho predominantemente de madera. Es versátil y puede usarse en interiores y exteriores."
+      }
+
+    }
+  }

@@ -1,0 +1,58 @@
+{
+    "id": "Mesa",
+    "thumbnail": "mesa.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Mesa",
+        "audioPath": "MesaPTBR.WAV",
+        "images": [
+          {
+            "url": "mesa.jpg",
+            "alt": "Mesa"
+          },
+          {
+            "url": "mesa2.jpg",
+            "alt": "Mesa(outro ângulo)"
+          }
+        ],
+        "name": "Mesa",
+        "origin": "DOAÇÃO GERTRUDES GABRIEL",
+        "description": "A mesa é um móvel projetado para suportar itens variados. Disponível em diversos estilos, tamanhos e materiais, atende diferentes funções e necessidades."
+      },
+      "en": {
+        "thumbnailAlt": "Table",
+        "audioPath": "MesaEN.WAV",
+        "images": [
+          {
+            "url": "mesa.jpg",
+            "alt": "Table"
+          },
+          {
+            "url": "mesa2.jpg",
+            "alt": "Table(another angle)"
+          }
+        ],
+        "name": "Table - en",
+        "origin": "DONATION FROM GERTURDES GABRIEL",
+        "description": "The table is an essential piece of furniture in many environments, designed to hold items such as food, books, and decorative objects. Tables come in various styles, sizes, and materials, each serving different functions and needs."
+      },
+      "es": {
+        "thumbnailAlt": "Mesa",
+        "audioPath": "MesaES.WAV",
+        "images": [
+          {
+            "url": "mesa.jpg",
+            "alt": "Mesa"
+          },
+          {
+            "url": "mesa2.jpg",
+            "alt": "Mesa(Otro ángulo)"
+          }
+        ],
+        "name": "Mesa - es",
+        "origin": "DONACIÓN GERTRUDES GABRIEL",
+        "description": "La mesa es un mueble diseñado para soportar varios objetos. Disponible en diferentes estilos, tamaños y materiales, satisface diferentes funciones y necesidades."
+      }
+
+    }
+  }

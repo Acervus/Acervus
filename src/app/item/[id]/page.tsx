@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { LanguageContext } from '../../components/languageContext/languageContext';
 import styles from './item.module.css';
 import Carrousel from '../../components/carrousel/carrousel';
+import LoadingSkeleton from './loadingSkeleton';
 
 export default function ArchivePage({ params }: { params: Promise<{ id: string }> }): React.ReactElement {
   const router = useRouter();
@@ -25,7 +26,7 @@ export default function ArchivePage({ params }: { params: Promise<{ id: string }
   }, [router, params]);
 
   if (!item) {
-    return (<div>Loading...</div>);
+    return (<LoadingSkeleton />);
   }
 
   return (<div id={styles.page}>
@@ -45,10 +46,10 @@ export default function ArchivePage({ params }: { params: Promise<{ id: string }
     <div id={styles.details}>
       <h1 className={styles.pcOnly} id={styles.title}>{item.data[currentLanguage].name}</h1>
       <h3 className={styles.pcOnly} id={styles.origin}>{item.data[currentLanguage].origin}</h3>
-      <audio controls id={styles.audioPlayer}>
+      { item.data[currentLanguage].audioPath ? <audio controls id={styles.audioPlayer}>
         <source src={`/database/${item.id}/${item.data[currentLanguage].audioPath}`} type={`audio/${item.data[currentLanguage].audioPath.split('.').pop()}`}/>
         {language.currentLanguage.pages.items.noSupportAudio}
-      </audio>
+      </audio> : null }
       <p id={styles.description}>{item.data[currentLanguage].description}</p>
     </div>
   </div>);

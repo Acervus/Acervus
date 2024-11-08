@@ -1,0 +1,39 @@
+{
+    "id": "Xuxu",
+    "thumbnail": "xuxu.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Xuxu",
+        "images": [
+          {
+            "url": "xuxu.jpg",
+            "alt": "Xuxu"
+          }
+        ],
+        "name": "Xuxu",
+        "origin": "Doação Fazenda Moura Panta"
+      },
+      "en": {
+        "thumbnailAlt": "Xuxu",
+        "images": [
+          {
+            "url": "xuxu.jpg",
+            "alt": "Xuxu"
+          }
+        ],
+        "name": "Xuxu - en",
+        "origin": "Donation from Moura Panta farm"
+      },
+      "es": {
+        "thumbnailAlt": "Xuxu",
+        "images": [
+          {
+            "url": "xuxu.jpg",
+            "alt": "Xuxu"
+          }
+        ],
+        "name": "Xuxu - es",
+        "origin": "Donación de la granja Moura Panta"
+      }
+    }
+  }

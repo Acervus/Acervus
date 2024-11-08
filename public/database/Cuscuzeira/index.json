@@ -1,0 +1,45 @@
+{
+    "id": "Cuscuzeira",
+    "thumbnail": "cuscuzeira.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Cuscuzeira",
+        "audioPath": "CuscuzeiraPTBR.WAV",
+        "images": [
+          {
+            "url": "cuscuzeira.jpg",
+            "alt": "Cuscuzeira"
+          }
+        ],
+        "name": "Cuscuzeira",
+        "origin": "",
+        "description": "A cuscuzeira é um utensílio tradicional para preparar cuscuz, especialmente popular no Brasil, cozinhando os grãos no vapor para uma textura leve."
+      },
+      "en": {
+        "thumbnailAlt": "Cuscuz Steamer",
+        "audioPath": "CuscuzeiraEN.WAV",
+        "images": [
+          {
+            "url": "cuscuzeira.jpg",
+            "alt": "Cuscuz Steamer"
+          }
+        ],
+        "name": "Cuscuz Steamer - en",
+        "origin": "",
+        "description": "The cuscuz steamer is a traditional kitchen utensil, especially popular in Latin American countries like Brazil, where it is widely used to prepare cuscuz, a dish made from corn or other grains. This utensil has a distinctive shape and functionality, allowing grains to steam, resulting in a light and fluffy texture."
+      },
+      "es": {
+        "thumbnailAlt": "Cuscuzeira",
+        "audioPath": "CuscuzeiraES.WAV",
+        "images": [
+          {
+            "url": "cuscuzeira.jpg",
+            "alt": "Cuscuzeira"
+          }
+        ],
+        "name": "Cuscuzeira  - es",
+        "origin": "",
+        "description": "La cuscuzeira es un utensilio tradicional para preparar cuscús, especialmente popular en Brasil, cocinando los granos al vapor para lograr una textura ligera."
+      }
+    }
+}

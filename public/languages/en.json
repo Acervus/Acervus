@@ -15,6 +15,17 @@
         "title": "Archive",
         "showMore": "Show more archives",
         "showLess": "Show less archives"
+      },
+      "about": {
+        "title": "About",
+        "text": "Acervus is a company focused on creating digital archives, combining historical preservation and technology to modernize museums, memorials, public and private collections in an accessible and interactive way to the public."
+      },
+      "contact": {
+        "title": "Contact",
+        "name": "Name",
+        "email": "E-mail",
+        "message": "Message",
+        "send": "Send"
       }
     },
     "items": {

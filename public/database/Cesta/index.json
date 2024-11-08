@@ -1,0 +1,45 @@
+{
+    "id": "Cesta",
+    "thumbnail": "cesta.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Cesta",
+        "audioPath": "CestaPTBR.WAV",
+        "images": [
+          {
+            "url": "cesta.jpg",
+            "alt": "Cesta"
+          }
+        ],
+        "name": "Cesta",
+        "origin": "Doação Preta de Zé Gomes, Alto dos Gomes",
+        "description": "Cestas são recipientes trançados de materiais como vime, bambu ou palha, usados para transporte e armazenamento de alimentos, com funções também decorativas."
+      },
+      "en": {
+        "thumbnailAlt": "Basket",
+        "audioPath": "CestaEN.WAV",
+        "images": [
+          {
+            "url": "cesta.jpg",
+            "alt": "Basket "
+          }
+        ],
+        "name": "Basket - en",
+        "origin": "DONATION FROM PRETA OF ZÉ GOMES, ALTO DOS GOMES",
+        "description": "Baskets are containers made from various woven materials, such as plant fibers (willow, straw, bamboo, reed, etc.), plastic, or even metal. Baskets have been used for centuries for different purposes, from transporting and storing food to decorative functions."
+      },
+      "es": {
+        "thumbnailAlt": "Cesta",
+        "audioPath": "CestaES.WAV",
+        "images": [
+          {
+            "url": "penico.jpg",
+            "alt": "Cesta"
+          }
+        ],
+        "name": "Cesta  - es",
+        "origin": "DONACIÓN PRETA DE ZÉ GOMES, ALTO DOS GOMES",
+        "description": "Las cestas son recipientes tejidos de materiales como mimbre, bambú o paja, usadas para transporte y almacenamiento de alimentos, con funciones también decorativas."
+      }
+    }
+  }

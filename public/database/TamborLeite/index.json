@@ -1,0 +1,45 @@
+{
+    "id": "TamborLeite",
+    "thumbnail": "tamborLeite.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Tambor de Leite",
+        "audioPath": "TamborDeLeirePTBR.WAV",
+        "images": [
+          {
+            "url": "tamborLeite.jpg",
+            "alt": "Tambor de Leite"
+          }
+        ],
+        "name": "Tambor de Leite",
+        "origin": "Doação Fazenda Moura Panta",
+        "description": "O tambor de leite, feito de metal ou madeira, é usado para armazenar e transportar leite em áreas rurais, com design robusto para preservar a qualidade do leite."
+      },
+      "en": {
+        "thumbnailAlt": "Milk Drum",
+        "audioPath": "TamborDeLeiteEN.WAV",
+        "images": [
+          {
+            "url": "tamborLeite.jpg",
+            "alt": "Milk Drum"
+          }
+        ],
+        "name": "Milk Drum - en",
+        "origin": "DONATION FROM MOURA PANTA FARM",
+        "description": "The milk drum, also known as a milk canister or milk barrel, is a traditional container used to store and transport milk, especially in rural areas and dairy production contexts. Typically made from metal like aluminum, stainless steel, or wood, this drum has a robust and practical design that helps preserve milk quality."
+      },
+      "es": {
+        "thumbnailAlt": "Tambor de Leche",
+        "audioPath": "TamborDeLeireES.WAV",
+        "images": [
+          {
+            "url": "tamborLeite.jpg",
+            "alt": "Tambor de Leche"
+          }
+        ],
+        "name": "Tambor de Leche  - es",
+        "origin": "DONACIÓN FAZENDA MOURA PANTA",
+        "description": "El tambor de leche, hecho de metal o madera, se usa para almacenar y transportar leche en áreas rurales, con un diseño robusto para preservar la calidad de la leche."
+      }
+    }
+  }

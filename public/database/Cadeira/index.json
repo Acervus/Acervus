@@ -1,0 +1,46 @@
+{
+    "id": "Cadeira",
+    "thumbnail": "cadeira.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Cadeira",
+        "audioPath": "CadeiraPTBR.WAV",
+        "images": [
+          {
+            "url": "cadeira.jpg",
+            "alt": "Cadeira"
+          }
+        ],
+        "name": "Cadeira",
+        "origin": "DOAÇÃO GERTRUDES GABRIEL",
+        "description": "A cadeira é um móvel essencial, projetada para assento. Existem muitos estilos e tipos, cada um com características e usos específicos."
+      },
+      "en": {
+        "thumbnailAlt": "Chair",
+        "audioPath": "CadeiraEN.WAV",
+        "images": [
+          {
+            "url": "cadeira.jpg",
+            "alt": "Chair"
+          }
+        ],
+        "name": "Chair - en",
+        "origin": "DONATION FROM GERTURDES GABRIEL",
+        "description": "The chair is a fundamental piece of furniture in virtually all settings, designed to provide seating. There are many styles and types of chairs, each with unique features and specific uses."
+      },
+      "es": {
+        "thumbnailAlt": "Silla",
+        "audioPath": "CadeiraES.WAV",
+        "images": [
+          {
+            "url": "cadeira.jpg",
+            "alt": "Silla"
+          }
+        ],
+        "name": "Silla - es",
+        "origin": "DONACIÓN GERTRUDES GABRIEL",
+        "description": "La silla es un mueble esencial diseñado para sentarse. Existen muchos estilos y tipos, cada uno con características y usos específicos."
+      }
+
+    }
+  }

@@ -1,0 +1,45 @@
+{
+    "id": "PanelasDeBarro",
+    "thumbnail": "panelaBarro.jpg",
+    "data": {
+      "pt_br": {
+        "thumbnailAlt": "Panelas de Barro",
+        "audioPath": "PanelasDeBarroPTBR.WAV",
+        "images": [
+          {
+            "url": "panelaBarro.jpg",
+            "alt": "Panelas de Barro"
+          }
+        ],
+        "name": "Panelas de Barro",
+        "origin": "",
+        "description": "As panelas de barro são utensílios tradicionais feitos de argila, valorizados por suas propriedades de cocção e sabor dos alimentos."
+      },
+      "en": {
+        "thumbnailAlt": "Clay Pot",
+        "audioPath": "PanelasDeBarroEN.WAV",
+        "images": [
+          {
+            "url": "panelaBarro.jpg",
+            "alt": "Clay Pot"
+          }
+        ],
+        "name": "Clay Pot - en",
+        "origin": "",
+        "description": "The clay pot is a traditional kitchen utensil widely used in various cultures worldwide. Made of clay or ceramic, the clay pot is valued for its cooking properties and its ability to enhance the flavor of foods."
+      },
+      "es": {
+        "thumbnailAlt": "Ollas de Barro",
+        "audioPath": "CuicaCoiteES.WAV",
+        "images": [
+          {
+            "url": "panelaBarro.jpg",
+            "alt": "Ollas de Barro"
+          }
+        ],
+        "name": "Ollas de Barro - es",
+        "origin": "",
+        "description": "Las ollas de barro son utensilios tradicionales hechos de arcilla, valorados por sus propiedades de cocción y el sabor que aportan a los alimentos."
+      }
+    }
+}
