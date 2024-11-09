@@ -5,7 +5,6 @@ import styles from './page.module.css';
 import archives from '../../public/database/archives.json';
 import ArchiveItem from './components/archiveItem/archiveItem';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';
 
 export default function Home() {
   const routes = useRouter();
