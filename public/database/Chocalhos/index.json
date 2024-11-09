@@ -2,7 +2,7 @@
     "id": "Chocalhos",
     "thumbnail": "chocalhos.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Chocalhos",
         "audioPath": "ChocalhosPtBr.wav",
         "images": [

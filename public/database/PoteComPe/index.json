@@ -2,7 +2,7 @@
     "id": "PoteComPe",
     "thumbnail": "potePe.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Pote com Pé",
         "audioPath": "PoteComPePTBR.WAV",
         "images": [

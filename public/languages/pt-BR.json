@@ -3,6 +3,7 @@
   "header": {
     "logoAlt": "Logotipo: Acervus, Acervo Digital",
     "logoDropdownTxt": "Língua",
+    "mobileMenu": "Abrir ou fechar menu de navegação",
     "navigation": {
       "archive": "Acervo",
       "about": "Sobre",

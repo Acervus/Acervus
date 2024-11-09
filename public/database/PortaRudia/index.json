@@ -2,7 +2,7 @@
     "id": "PortaRudia",
     "thumbnail": "portaRudia.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Porta Rúdia",
         "audioPath": "PortaRudiaPTBR.WAV",
         "images": [

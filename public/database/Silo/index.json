@@ -2,7 +2,7 @@
     "id": "Silo",
     "thumbnail": "silo.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Silo",
         "audioPath": "SiloPTBR.WAV",
         "images": [

@@ -2,7 +2,7 @@
     "id": "FerroGado",
     "thumbnail": "ferroGado.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Ferro de Ferrar Gado",
         "audioPath": "FerroDeFerrarGadoPTBR.WAV",
         "images": [

@@ -33,10 +33,10 @@ export default function Header(): React.ReactElement {
     <div id={styles.headerContent} className={mobileMenuOpen ? styles.open : ''}>
       <div id={styles.left}>
         <Link href='/' id={styles.logoWrapper}>
-          <Image className={styles.image} alt={currentLanguage?.header.logoAlt} src='/images/Logo.png' width='0' height='0' sizes="100vw"/>
+          <Image className={styles.image} alt={currentLanguage?.header.logoAlt} src='/images/Logo.webp' width='0' height='0' sizes="100vw"/>
         </Link>
       </div>
-      <button id={styles.mobileOnly} onClick={() => { toggleMobileMenu(!mobileMenuOpen); }}>
+      <button id={styles.mobileOnly} onClick={() => { toggleMobileMenu(!mobileMenuOpen); }} aria-label={currentLanguage?.header.mobileMenu}>
         <div className={styles.hamburger}></div>
         <div className={styles.hamburger}></div>
         <div className={styles.hamburger}></div>

@@ -2,7 +2,7 @@
     "id": "Penico",
     "thumbnail": "penico.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Penico",
         "audioPath": "PenicoPTBR.WAV",
         "images": [

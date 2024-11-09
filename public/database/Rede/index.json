@@ -2,7 +2,7 @@
     "id": "Rede",
     "thumbnail": "rede.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Rede",
         "audioPath": "RedePTBR.WAV",
         "images": [

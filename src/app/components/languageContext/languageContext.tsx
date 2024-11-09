@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { createContext, useState } from 'react';
 import languages from '../../../../public/languages/index.json';
-import defaultLang from '../../../../public/languages/pt_br.json';
+import defaultLang from '../../../../public/languages/pt-BR.json';
 
 export const LanguageContext = createContext({} as { selected: string | undefined, currentLanguage: typeof defaultLang | undefined, setLanguage: (langCode: string) => void, availableLangs: typeof languages.languages });
 
@@ -25,7 +25,7 @@ export function Language({ children }: { children: React.ReactNode }) {
 
   // initial language
   useEffect(() => {
-    const initialLang = localStorage.getItem('CurrentLangCode') ?? 'pt_br';
+    const initialLang = localStorage.getItem('CurrentLangCode') ?? 'pt-BR';
     setLanguage(initialLang);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

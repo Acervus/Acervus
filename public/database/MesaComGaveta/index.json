@@ -2,7 +2,7 @@
     "id": "MesaComGaveta",
     "thumbnail": "mesaComGaveta.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Mesa com gaveta",
         "audioPath": "MesaComGavetaPTBR.WAV",
         "images": [

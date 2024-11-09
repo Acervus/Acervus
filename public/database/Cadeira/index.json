@@ -2,7 +2,7 @@
     "id": "Cadeira",
     "thumbnail": "cadeira.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Cadeira",
         "audioPath": "CadeiraPTBR.WAV",
         "images": [

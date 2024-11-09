@@ -2,7 +2,7 @@
     "id": "Cabide",
     "thumbnail": "cabide.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Cabide",
         "audioPath": "CabidePTBR.WAV",
         "images": [

@@ -2,7 +2,7 @@
     "id": "oratorio",
     "thumbnail": "oratorio.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Oratório",
         "audioPath": "OratórioPTBR.WAV",
         "images": [

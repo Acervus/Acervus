@@ -1,8 +1,8 @@
 {
   "languages": [{
-    "id": "pt_br",
+    "id": "pt-BR",
     "name": "Português",
-    "filename": "pt_br.json"
+    "filename": "pt-BR.json"
   }, {
     "id": "en",
     "name": "English",

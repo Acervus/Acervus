@@ -2,7 +2,7 @@
     "id": "Mesa",
     "thumbnail": "mesa.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Mesa",
         "audioPath": "MesaPTBR.WAV",
         "images": [

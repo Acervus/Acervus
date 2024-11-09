@@ -2,7 +2,7 @@
     "id": "Lampiao",
     "thumbnail": "lampiao.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Lampião",
         "audioPath": "LampiaoPTBR.WAV",
         "images": [

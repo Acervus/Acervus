@@ -2,7 +2,7 @@
     "id": "PortaToalha",
     "thumbnail": "PortaToalha.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Porta Toalha",
         "audioPath": "PortaToalhasPTBR.WAV",
         "images": [

@@ -37,7 +37,7 @@ export default function ArchivePage({ params }: { params: Promise<{ id: string }
     <Carrousel
       elements={
         item.data[currentLanguage].images.map((image) => {
-          return (<Image key={`${item.id}-${image.url}`} src={image.url ? `/database/${item.id}/${image.url}` : '/images/noImageSquare.jpeg'} alt={image.alt} width='0' height='0' sizes='100vw' className={styles.imageCover}/>);
+          return (<Image key={`${item.id}-${image.url}`} src={image.url ? `/database/${item.id}/${image.url}` : '/images/noImageSquare.webp'} alt={image.alt} width='0' height='0' sizes='100vw' className={styles.imageCover}/>);
         })
       }
       mainElementStyle={styles.mainCarrouselStyle}

@@ -2,7 +2,7 @@
     "id": "Prateleira",
     "thumbnail": "prateleira.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Prateleira",
         "audioPath": "PrateleiraPTBR.WAV",
         "images": [

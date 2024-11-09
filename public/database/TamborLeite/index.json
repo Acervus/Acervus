@@ -2,7 +2,7 @@
     "id": "TamborLeite",
     "thumbnail": "tamborLeite.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Tambor de Leite",
         "audioPath": "TamborDeLeirePTBR.WAV",
         "images": [

@@ -2,7 +2,7 @@
     "id": "Cesta",
     "thumbnail": "cesta.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Cesta",
         "audioPath": "CestaPTBR.WAV",
         "images": [

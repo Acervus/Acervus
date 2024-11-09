@@ -2,7 +2,7 @@
     "id": "Cama",
     "thumbnail": "cama.jpg",
     "data": {
-      "pt_br": {
+      "pt-BR": {
         "thumbnailAlt": "Cama",
         "audioPath": "CamaPTBR.WAV",
         "images": [
