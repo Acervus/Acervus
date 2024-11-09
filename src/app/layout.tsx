@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
 import { Language } from './components/languageContext/languageContext';
@@ -22,6 +22,19 @@ const montSerrat = localFont({
 export const metadata: Metadata = {
   title: 'Acervus',
   description: 'Acervo Digital',
+  applicationName: 'Acervus',
+  keywords: ['Acervus', 'Acervo', 'Digital', 'casa de taipa', 'museu', 'história', 'cultura', 'arte', 'acervo digital'],
+  robots: 'index, follow',
+  icons: '/images/favicon.png',
+  archives: 'https://acervus.art.br/#acervo',
+  category: 'Culture',
+  classification: 'Digital Museum',
+  manifest: '/site.webmanifest',
+};
+
+export const viewport: Viewport = {
+  themeColor: '#4840D3',
+  colorScheme: 'only light',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
