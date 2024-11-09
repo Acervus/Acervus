@@ -19,6 +19,7 @@ export function Language({ children }: { children: React.ReactNode }) {
       localStorage.setItem('CurrentLangCode', langCode);
       setCurrentLanguageCode(langCode);
       setCurrentLanguage(parsedData);
+      document.documentElement.lang = langCode;
     }
   }
 

@@ -37,7 +37,7 @@ export default function ArchivePage({ params }: { params: Promise<{ id: string }
     <Carrousel
       elements={
         item.data[currentLanguage].images.map((image) => {
-          return (<Image key={`${item.id}-${image.url}`} src={`/database/${item.id}/${image.url}`} alt={image.alt} width='0' height='0' sizes='100vw' className={styles.imageCover}/>);
+          return (<Image key={`${item.id}-${image.url}`} src={image.url ? `/database/${item.id}/${image.url}` : '/images/noImageSquare.jpeg'} alt={image.alt} width='0' height='0' sizes='100vw' className={styles.imageCover}/>);
         })
       }
       mainElementStyle={styles.mainCarrouselStyle}
@@ -46,7 +46,7 @@ export default function ArchivePage({ params }: { params: Promise<{ id: string }
     <div id={styles.details}>
       <h1 className={styles.pcOnly} id={styles.title}>{item.data[currentLanguage].name}</h1>
       <h3 className={styles.pcOnly} id={styles.origin}>{item.data[currentLanguage].origin}</h3>
-      { item.data[currentLanguage].audioPath ? <audio controls id={styles.audioPlayer}>
+      { item.data[currentLanguage].audioPath ? <audio key={`AUDIO-${currentLanguage}`} controls id={styles.audioPlayer}>
         <source src={`/database/${item.id}/${item.data[currentLanguage].audioPath}`} type={`audio/${item.data[currentLanguage].audioPath.split('.').pop()}`}/>
         {language.currentLanguage.pages.items.noSupportAudio}
       </audio> : null }

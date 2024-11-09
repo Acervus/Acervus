@@ -24,7 +24,7 @@
             "alt": "Hand Planting Machine"
           }
         ],
-        "name": "Hand Planting Machine - en",
+        "name": "Hand Planting Machine",
         "origin": "Donation from Moura Panta farm",
         "description": "A hand planting machine, also called a manual planter or seed drill, is a simple, portable device used to facilitate seed planting in small agricultural areas, gardens, or plots. These machines are designed for single-person use, saving time and effort compared to traditional hand planting."
       },
@@ -37,7 +37,7 @@
             "alt": "Máquina Manual para Plantar"
           }
         ],
-        "name": "Máquina Manual para Plantar - es",
+        "name": "Máquina Manual para Plantar",
         "origin": "Donación de la granja Moura Panta",
         "description": "La máquina manual para plantar, también llamada sembradora manual, es un equipo simple y portátil que facilita la siembra de semillas en pequeñas áreas agrícolas, huertos o jardines."
       }

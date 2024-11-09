@@ -20,7 +20,7 @@
         "description": "A copeira é um móvel ou utensílio de cozinha para armazenar e servir copos, pratos, talheres e outros itens de mesa."
       },
       "en": {
-        "thumbnailAlt": "Cabinet ",
+        "thumbnailAlt": "Cabinet",
         "audioPath": "CopeiraEN.WAV",
         "images": [
           {
@@ -32,12 +32,12 @@
             "alt": "Cabinet(another angle)"
           }
         ],
-        "name": "Cabinet - en",
+        "name": "Cabinet",
         "origin": "Donated by Sir Master, Carnaubinha",
         "description": "A cabinet is a piece of furniture or a small kitchen item designed to store and serve tableware, such as cups, plates, cutlery, and other items related to dining and beverages."
       },
       "es": {
-        "thumbnailAlt": "Co",
+        "thumbnailAlt": "Copeira",
         "audioPath": "CopeiraES.WAV",
         "images": [
           {
@@ -46,12 +46,12 @@
           },
           {
             "url": "Copeira2.jpg",
-            "alt": "Co(otro ángulo)"
+            "alt": "Copeira(otro ángulo)"
           }
         ],
-        "name": "Co - es",
+        "name": "Copeira",
         "origin": "Donación Maestro Señor, Carnaubinha",
-        "description": "La alacena es un mueble o utensilio de cocina para almacenar y servir vasos, platos, cubiertos y otros artículos de mesa."
+        "description": "La Copeira es un mueble o utensilio de cocina para almacenar y servir vasos, platos, cubiertos y otros artículos de mesa."
       }
     }
   }

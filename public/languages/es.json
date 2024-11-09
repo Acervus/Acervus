@@ -11,6 +11,27 @@
   },
   "pages": {
     "homepage": {
+      "casaDeTaipa": {
+        "name": "Casa de Taipa",
+        "about": [
+          [
+            "La <u>Casa de Taipa</u> representa la originalidad e identidad del pueblo del noreste de Brasil.",
+            "Con paredes hechas a mano de barro, brinda una sensación acogedora con un ambiente agradable."
+          ],
+          [
+            "La famosa Casa de Taipa en <u>Vila do Sertão</u> es uno de los lugares más visitados por turistas que vienen a Poço de José de Moura para experiencias inolvidables de nuestras tradiciones."
+          ],
+          [
+            "La casa alberga objetos y varios artículos que una vez fueron utilizados por los sertanejos en el pasado y que hoy sirven como recuerdos."
+          ],
+          [
+            "La casa también ofrece café hecho en una estufa de leña y pasteles horneados en un horno de barro. Agua de pote y bancos de madera para conversar."
+          ],
+          [
+            "Los visitantes de la Casa de Taipa tienen una <u>experiencia inolvidable</u>."
+          ]
+        ]
+      },
       "archive": {
         "title": "Colección",
         "showMore": "Mostrar más colecciones",
@@ -22,10 +43,8 @@
       },
       "contact": {
         "title": "Contacto",
-        "name": "Nombre",
-        "email": "Correo electrónico",
-        "message": "Mensaje",
-        "send": "Enviar"
+        "instagram": "Instagram",
+        "email": "E-mail"
       }
     },
     "items": {

@@ -24,7 +24,7 @@
             "alt": "Bed"
           }
         ],
-        "name": "Bed - en",
+        "name": "Bed",
         "origin": "DONATION FROM TOINHO MARCELINO AND CLARA",
         "description": "Antique beds were popular primarily during the 19th and early 20th centuries, featuring a robust structure often made of wood or metal with a spring base for support and comfort."
       },
@@ -37,7 +37,7 @@
             "alt": "Cama"
           }
         ],
-        "name": "Cama - es",
+        "name": "Cama",
         "origin": "DONACIÓN TOINHO MARCELINO Y CLARA",
         "description": "Las camas antiguas, populares en el siglo XIX y principios del XX, tenían una estructura robusta de madera o metal y utilizaban un sistema de resortes en la base para soporte y comodidad."
       }

@@ -71,6 +71,10 @@
   aspect-ratio: 16/8 !important;
 }
 
+.mainCarrouselStyle {
+  width: 100% !important;
+}
+
 @media screen and (max-width: 768px) {
   .pcOnly {
     display: none;

@@ -18,8 +18,8 @@ export default function Footer(): React.ReactElement {
         </Link>
       </div>
       <div id={styles.right}>
-        <Link href='https://www.instagram.com/acervusofc/' className={styles.socialLink}>Instagram: @acervusofc</Link>
-        <Link href='mailto:acervusoficial@gmail.com' className={styles.socialLink}>E-mail: acervusoficial@gmail.com</Link>
+        <Link href='https://www.instagram.com/acervusofc/' className={styles.socialLink}><Image className={styles.socialImage} alt={currentLanguage?.pages.homepage.contact.instagram} src='/images/instagram.svg' width='0' height='0' sizes="100vw"/> Instagram: @acervusofc</Link>
+        <Link href='mailto:acervusoficial@gmail.com' className={styles.socialLink}><Image className={styles.socialImage} alt={currentLanguage?.pages.homepage.contact.email} src='/images/email.svg' width='0' height='0' sizes="100vw"/> E-mail: acervusoficial@gmail.com</Link>
       </div>
     </footer>
   );

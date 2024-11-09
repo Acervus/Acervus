@@ -27,8 +27,10 @@
   --header-current-nav-color: #554433;
   --header-nav-item-color: #1E0D5D;
   --header-nav-border-size: 2px;
-  --header-nav-border-color: #1E0D5D;
-  --header-nav-button-color: #9892ff;
+  --header-nav-border-color: #4840d3;
+  --header-nav-button-color: transparent;
+  --header-nav-button-border-size: 0px;
+  --header-nav-button-border-color: #4840d3;
   --header-nav-item-hover-color: #4840d3;
 
   --footer-background: #d1d7f1;
@@ -51,6 +53,16 @@
 
   --submit-form-hover-background: #d1d7f1;
   --submit-form-active-background: #9892ff;
+
+  --contact-border-size: 2px;
+  --contact-border-color: #1E0D5D;
+  --contact-image-fill: #4840d3;
+
+  --text-underline-height: 0.15rem;
+  --text-underline-color: #4840d3;
+
+  --langbutton-bgColor: #d1d7f1;
+  --lang-button-icon-color: #4840d3;
 }
 
 html, body {

@@ -3,15 +3,15 @@
     "thumbnail": "",
     "data": {
       "pt_br": {
-        "thumbnailAlt": "Espreguicadeira",
+        "thumbnailAlt": "Espreguiçadeira",
         "audioPath": "EspreguicadeiraPTBR.WAV",
         "images": [
           {
             "url": "",
-            "alt": "Espreguicadeira"
+            "alt": "Espreguiçadeira"
           }
         ],
-        "name": "Espreguicadeira",
+        "name": "Espreguiçadeira",
         "origin": "Doação Fazenda Moura Panta",
         "description": "A espreguiçadeira é um móvel para conforto e relaxamento, geralmente usado em jardins, varandas, piscinas ou praias. Feita de diversos materiais, como alumínio, madeira ou plástico, pode se ajustar a diferentes posições."
       },
@@ -24,7 +24,7 @@
             "alt": "Lounge Chair"
           }
         ],
-        "name": "Lounge Chair - en",
+        "name": "Lounge Chair",
         "origin": "Donation from Moura Panta farm",
         "description": "A lounge chair is a type of furniture designed for comfort and relaxation, commonly used in outdoor settings such as gardens, balconies, pools, or beaches. Popular for their adjustable positions, these chairs allow the user to lie down or sit comfortably. They can be made from materials such as aluminum, wood, plastic, or stainless steel, with material choice impacting both durability and aesthetics."
       },
@@ -37,7 +37,7 @@
             "alt": "Silla Reclinable"
           }
         ],
-        "name": "Silla Reclinable - es",
+        "name": "Silla Reclinable",
         "origin": "Donación de la granja Moura Panta",
         "description": "La silla reclinable es un mueble para confort y relajación, generalmente usado en jardines, terrazas, piscinas o playas. Hecha de diversos materiales, como aluminio, madera o plástico, puede ajustarse a diferentes posiciones."
       }

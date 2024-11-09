@@ -45,10 +45,10 @@ export default function ArchiveItem(props: { id: string, index: number, onClick:
       } else setFocused(true);
     }}>
       <div className={styles.backgroundImage}>
-        <Image src={`/database/${item.id}/${item.thumbnail}`} alt={item.data[currentLanguage].thumbnailAlt} width='0' height='0' sizes='100vw' className={styles.image}/>
+        <Image src={item.thumbnail ? `/database/${item.id}/${item.thumbnail}` : '/images/noImageSquare.jpeg'} alt={item.data[currentLanguage].thumbnailAlt} width='0' height='0' sizes='100vw' className={styles.image}/>
       </div>
       <div className={styles.foregroundContent}>
-        <h1>{item.data[currentLanguage].name}</h1>
+        <h1 className={styles.title}>{item.data[currentLanguage].name}</h1>
       </div>
     </div>
   );

@@ -66,10 +66,10 @@
 .navigationItem {
   color: var(--header-nav-item-color);
   text-decoration: none;
-  font-style: italic;
+  /* font-style: italic; */
   transition: color 0.25s ease;
   font-family: var(--font-Montserrat);
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5;
   white-space: pre;
 }
@@ -84,7 +84,7 @@
   height: 100%;
   width: auto;
   background: var(--header-nav-button-color);
-  border: var(--header-nav-border-size) solid var(--header-nav-border-color);
+  border: var(--header-nav-button-border-size) solid var(--header-nav-button-border-color);
   border-radius: calc(var(--border-radius) * 0.5rem);
   cursor: pointer;
   position: relative;
@@ -96,7 +96,7 @@
   position: absolute;
   width: 80%;
   height: 15%;
-  background: var(--header-text-color);
+  background: var(--header-nav-border-color);
   transform: translate(-50%, -50%);
   border-radius: calc(var(--border-radius) * 0.25rem);
   transition: transform 0.25s ease, opacity 0.25s ease, top 0.25s ease;

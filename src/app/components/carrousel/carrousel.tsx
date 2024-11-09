@@ -20,7 +20,7 @@ export default function Carrousel(props: { elements: ReactElement[], mainElement
     } else {
       nextValue = amount;
     }
-    document.getElementById(styles.itemList).children[nextValue].scrollIntoView({ behavior: 'smooth', inline: 'center' });
+    document.getElementById(styles.itemList).children[nextValue].scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest', });
     setCarrouselCurrent(nextValue);
   }
 

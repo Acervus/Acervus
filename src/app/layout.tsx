@@ -6,6 +6,7 @@ import { Language } from './components/languageContext/languageContext';
 import { Overlay } from './components/overlayContext/overlayContext';
 import Header from './components/Header/header';
 import Footer from './components/footer/footer';
+import MobileLanguageButton from './components/mobileLanguageButton/mobileLanguageButton';
 
 const robotoSlab = localFont({
   src: './fonts/RobotoSlab.ttf',
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR" translate="no">
       <body className={`${robotoSlab.variable} ${montSerrat.variable}`}>
         <Overlay>
           <Language>
@@ -34,6 +35,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               {children}
               <Footer/>
             </div>
+            <MobileLanguageButton/>
           </Language>
         </Overlay>
       </body>

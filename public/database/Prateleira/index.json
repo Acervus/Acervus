@@ -7,7 +7,7 @@
         "audioPath": "PrateleiraPTBR.WAV",
         "images": [
           {
-            "url": "cesta.jpg",
+            "url": "prateleira.jpg",
             "alt": "Prateleira"
           }
         ],
@@ -24,7 +24,7 @@
             "alt": "Shelf"
           }
         ],
-        "name": "Shelf - en",
+        "name": "Shelf",
         "origin": "DONATION FROM COSMO AND DAMIÃO, ALTO DOS GOMES",
         "description": "The shelf is a functional furniture piece designed to store or display objects in an organized and accessible manner. These pieces are extremely versatile and can be used to organize or display decorative items, books, collections, plants, and household utensils."
       },
@@ -37,7 +37,7 @@
             "alt": "Estante"
           }
         ],
-        "name": "Estante  - es",
+        "name": "Estante ",
         "origin": "DONACIÓN COSMO Y DAMIÃO, ALTO DOS GOMES",
         "description": "El estante es un mueble funcional para almacenar o exhibir objetos, usado para organización o decoración en entornos variados, como libros, plantas y colecciones."
       }

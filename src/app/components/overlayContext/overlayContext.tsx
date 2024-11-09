@@ -21,7 +21,6 @@ export function Overlay({ children }: { children: React.ReactNode }) {
       setShowingOverlay((states - 1) > 0);
       setStates(states > 0 ? states -1 : 0);
     }
-    console.log(showingOverlay, states);
   }
 
   useEffect(() => {

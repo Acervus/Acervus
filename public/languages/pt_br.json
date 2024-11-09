@@ -2,7 +2,7 @@
   "loading": "Carregando",
   "header": {
     "logoAlt": "Logotipo: Acervus, Acervo Digital",
-    "logoDropdownTxt": "Lingua",
+    "logoDropdownTxt": "Língua",
     "navigation": {
       "archive": "Acervo",
       "about": "Sobre",
@@ -11,6 +11,27 @@
   },
   "pages": {
     "homepage": {
+      "casaDeTaipa": {
+        "name": "Casa de Taipa",
+        "about": [
+          [
+            "A <u>Casa de Taipa</u> representa originalidade e identidade do povo nordestino.",
+            "Com suas paredes feitas de barro manualmente, traz uma sensação aconchegante de clima agradável."
+          ],
+          [
+            "A famosa casa de Taipa da <u>Vila do Sertão</u> é um dos espaços mais visitados por turistas que vem a Poço de José de Moura ter experiência inesquecíveis das nossas tradições."
+          ],
+          [
+            "A casa dispõe de objetos e diversos adereços utilizados pelos sertanejos no passado, e que hoje são memórias."
+          ],
+          [
+            "A casa ainda produz café feito ao fogão a lenha, e bolos assados ao forno de barro. Água de pote e banco de madeira para prosear."
+          ],
+          [
+            "Quem visita a casa de Taipa tem uma <u>experiência inesquecível</u>."
+          ]
+        ]
+      },
       "archive": {
         "title": "Acervo",
         "showMore": "Mostrar mais acervos",
@@ -22,10 +43,8 @@
       },
       "contact": {
         "title": "Contato",
-        "name": "Nome",
-        "email": "E-mail",
-        "message": "Mensagem",
-        "send": "Enviar"
+        "instagram": "Instagram",
+        "email": "E-mail"
       }
     },
     "items": {
